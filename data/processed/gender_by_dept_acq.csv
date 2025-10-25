@@ -1,0 +1,1211 @@
+year,Department,Gender,count,total,share
+1929.0,Drawings,Male,1,1,1.0
+1929.0,Prints & Illustrated Books,Male,5,5,1.0
+1930.0,Drawings,Male,2,2,1.0
+1930.0,Painting & Sculpture,Male,4,4,1.0
+1930.0,Prints & Illustrated Books,Male,1,1,1.0
+1931.0,Painting & Sculpture,Male,2,2,1.0
+1931.0,Prints & Illustrated Books,Male,1,1,1.0
+1932.0,Architecture & Design,Male,2,2,1.0
+1932.0,Drawings,Male,3,3,1.0
+1932.0,Painting & Sculpture,Male,1,1,1.0
+1932.0,Photography,Female,1,1,1.0
+1932.0,Prints & Illustrated Books,Male,2,2,1.0
+1933.0,Painting & Sculpture,Male,2,2,1.0
+1933.0,Photography,Male,1,1,1.0
+1933.0,Prints & Illustrated Books,Male,2,2,1.0
+1934.0,Architecture & Design,Male,6,24,0.25
+1934.0,Architecture & Design,Unknown,18,24,0.75
+1934.0,Drawings,Female,1,13,0.07692307692307693
+1934.0,Drawings,Male,12,13,0.9230769230769231
+1934.0,Painting & Sculpture,Male,10,10,1.0
+1934.0,Photography,Male,1,1,1.0
+1934.0,Prints & Illustrated Books,Female,2,15,0.13333333333333333
+1934.0,Prints & Illustrated Books,Male,13,15,0.8666666666666667
+1935.0,Architecture & Design,Female,1,2,0.5
+1935.0,Architecture & Design,Male,1,2,0.5
+1935.0,Drawings,Female,1,43,0.023255813953488372
+1935.0,Drawings,Male,41,43,0.9534883720930233
+1935.0,Drawings,Unknown,1,43,0.023255813953488372
+1935.0,Film,Male,4,4,1.0
+1935.0,Painting & Sculpture,Male,7,7,1.0
+1935.0,Photography,Male,2,2,1.0
+1935.0,Prints & Illustrated Books,Female,1,13,0.07692307692307693
+1935.0,Prints & Illustrated Books,Male,11,13,0.8461538461538461
+1935.0,Prints & Illustrated Books,Unknown,1,13,0.07692307692307693
+1936.0,Architecture & Design,Female,6,34,0.17647058823529413
+1936.0,Architecture & Design,Male,15,34,0.4411764705882353
+1936.0,Architecture & Design,Unknown,13,34,0.38235294117647056
+1936.0,Drawings,Female,1,13,0.07692307692307693
+1936.0,Drawings,Male,12,13,0.9230769230769231
+1936.0,Film,Male,6,7,0.8571428571428571
+1936.0,Film,Unknown,1,7,0.14285714285714285
+1936.0,Painting & Sculpture,Female,1,14,0.07142857142857142
+1936.0,Painting & Sculpture,Male,13,14,0.9285714285714286
+1936.0,Prints & Illustrated Books,Male,2,2,1.0
+1937.0,Architecture & Design,Female,3,100,0.03
+1937.0,Architecture & Design,Male,71,100,0.71
+1937.0,Architecture & Design,Unknown,26,100,0.26
+1937.0,Drawings,Female,1,16,0.0625
+1937.0,Drawings,Male,14,16,0.875
+1937.0,Drawings,Unknown,1,16,0.0625
+1937.0,Film,Male,3,3,1.0
+1937.0,Painting & Sculpture,Female,1,21,0.047619047619047616
+1937.0,Painting & Sculpture,Male,20,21,0.9523809523809523
+1937.0,Photography,Female,1,5,0.2
+1937.0,Photography,Male,4,5,0.8
+1937.0,Prints & Illustrated Books,Male,2,2,1.0
+1938.0,Architecture & Design,Female,1,9,0.1111111111111111
+1938.0,Architecture & Design,Male,5,9,0.5555555555555556
+1938.0,Architecture & Design,Unknown,3,9,0.3333333333333333
+1938.0,Drawings,Male,2,2,1.0
+1938.0,Film,Female,1,9,0.1111111111111111
+1938.0,Film,Male,8,9,0.8888888888888888
+1938.0,Painting & Sculpture,Female,1,15,0.06666666666666667
+1938.0,Painting & Sculpture,Male,14,15,0.9333333333333333
+1938.0,Photography,Female,1,23,0.043478260869565216
+1938.0,Photography,Male,19,23,0.8260869565217391
+1938.0,Photography,Unknown,3,23,0.13043478260869565
+1938.0,Prints & Illustrated Books,Male,1,1,1.0
+1939.0,Architecture & Design,Male,8,10,0.8
+1939.0,Architecture & Design,Unknown,2,10,0.2
+1939.0,Drawings,Female,1,17,0.058823529411764705
+1939.0,Drawings,Male,16,17,0.9411764705882353
+1939.0,Film,Male,6,7,0.8571428571428571
+1939.0,Film,Unknown,1,7,0.14285714285714285
+1939.0,Painting & Sculpture,Female,1,42,0.023809523809523808
+1939.0,Painting & Sculpture,Male,41,42,0.9761904761904762
+1939.0,Photography,Female,1,6,0.16666666666666666
+1939.0,Photography,Male,5,6,0.8333333333333334
+1939.0,Prints & Illustrated Books,Female,1,11,0.09090909090909091
+1939.0,Prints & Illustrated Books,Male,10,11,0.9090909090909091
+1940.0,Architecture & Design,Male,30,51,0.5882352941176471
+1940.0,Architecture & Design,Unknown,21,51,0.4117647058823529
+1940.0,Drawings,Female,2,28,0.07142857142857142
+1940.0,Drawings,Male,26,28,0.9285714285714286
+1940.0,Film,Male,5,5,1.0
+1940.0,Painting & Sculpture,Female,1,14,0.07142857142857142
+1940.0,Painting & Sculpture,Male,13,14,0.9285714285714286
+1940.0,Photography,Female,3,13,0.23076923076923078
+1940.0,Photography,Male,10,13,0.7692307692307693
+1940.0,Prints & Illustrated Books,Female,19,169,0.11242603550295859
+1940.0,Prints & Illustrated Books,Male,144,169,0.8520710059171598
+1940.0,Prints & Illustrated Books,Unknown,6,169,0.03550295857988166
+1941.0,Architecture & Design,Male,6,10,0.6
+1941.0,Architecture & Design,Unknown,4,10,0.4
+1941.0,Drawings,Female,3,27,0.1111111111111111
+1941.0,Drawings,Male,24,27,0.8888888888888888
+1941.0,Film,Male,1,1,1.0
+1941.0,Painting & Sculpture,Female,3,41,0.07317073170731707
+1941.0,Painting & Sculpture,Male,38,41,0.926829268292683
+1941.0,Photography,Female,17,111,0.15315315315315314
+1941.0,Photography,Male,84,111,0.7567567567567568
+1941.0,Photography,Unknown,10,111,0.09009009009009009
+1941.0,Prints & Illustrated Books,Female,8,25,0.32
+1941.0,Prints & Illustrated Books,Male,16,25,0.64
+1941.0,Prints & Illustrated Books,Unknown,1,25,0.04
+1942.0,Architecture & Design,Female,4,21,0.19047619047619047
+1942.0,Architecture & Design,Male,10,21,0.47619047619047616
+1942.0,Architecture & Design,Unknown,7,21,0.3333333333333333
+1942.0,Drawings,Female,2,41,0.04878048780487805
+1942.0,Drawings,Male,39,41,0.9512195121951219
+1942.0,Film,Male,1,1,1.0
+1942.0,Painting & Sculpture,Female,4,33,0.12121212121212122
+1942.0,Painting & Sculpture,Male,29,33,0.8787878787878788
+1942.0,Photography,Female,3,30,0.1
+1942.0,Photography,Male,26,30,0.8666666666666667
+1942.0,Photography,Unknown,1,30,0.03333333333333333
+1942.0,Prints & Illustrated Books,Female,6,70,0.08571428571428572
+1942.0,Prints & Illustrated Books,Male,58,70,0.8285714285714286
+1942.0,Prints & Illustrated Books,Unknown,6,70,0.08571428571428572
+1943.0,Architecture & Design,Female,4,107,0.037383177570093455
+1943.0,Architecture & Design,Male,60,107,0.5607476635514018
+1943.0,Architecture & Design,Unknown,43,107,0.40186915887850466
+1943.0,Drawings,Male,13,14,0.9285714285714286
+1943.0,Drawings,Unknown,1,14,0.07142857142857142
+1943.0,Painting & Sculpture,Female,2,34,0.058823529411764705
+1943.0,Painting & Sculpture,Male,31,34,0.9117647058823529
+1943.0,Painting & Sculpture,Unknown,1,34,0.029411764705882353
+1943.0,Photography,Female,4,24,0.16666666666666666
+1943.0,Photography,Male,20,24,0.8333333333333334
+1943.0,Prints & Illustrated Books,Male,29,30,0.9666666666666667
+1943.0,Prints & Illustrated Books,Unknown,1,30,0.03333333333333333
+1944.0,Architecture & Design,Female,2,33,0.06060606060606061
+1944.0,Architecture & Design,Male,20,33,0.6060606060606061
+1944.0,Architecture & Design,Unknown,11,33,0.3333333333333333
+1944.0,Drawings,Female,2,16,0.125
+1944.0,Drawings,Male,14,16,0.875
+1944.0,Film,Male,1,1,1.0
+1944.0,Painting & Sculpture,Female,3,16,0.1875
+1944.0,Painting & Sculpture,Male,13,16,0.8125
+1944.0,Photography,Female,9,39,0.23076923076923078
+1944.0,Photography,Male,28,39,0.717948717948718
+1944.0,Photography,Unknown,2,39,0.05128205128205128
+1944.0,Prints & Illustrated Books,Female,2,30,0.06666666666666667
+1944.0,Prints & Illustrated Books,Male,24,30,0.8
+1944.0,Prints & Illustrated Books,Unknown,4,30,0.13333333333333333
+1945.0,Architecture & Design,Female,1,32,0.03125
+1945.0,Architecture & Design,Male,25,32,0.78125
+1945.0,Architecture & Design,Unknown,6,32,0.1875
+1945.0,Drawings,Male,12,12,1.0
+1945.0,Painting & Sculpture,Female,2,10,0.2
+1945.0,Painting & Sculpture,Male,8,10,0.8
+1945.0,Prints & Illustrated Books,Female,1,35,0.02857142857142857
+1945.0,Prints & Illustrated Books,Male,33,35,0.9428571428571428
+1945.0,Prints & Illustrated Books,Unknown,1,35,0.02857142857142857
+1946.0,Architecture & Design,Male,7,13,0.5384615384615384
+1946.0,Architecture & Design,Unknown,6,13,0.46153846153846156
+1946.0,Drawings,Male,5,5,1.0
+1946.0,Painting & Sculpture,Female,2,9,0.2222222222222222
+1946.0,Painting & Sculpture,Male,7,9,0.7777777777777778
+1946.0,Photography,Female,2,9,0.2222222222222222
+1946.0,Photography,Male,7,9,0.7777777777777778
+1946.0,Prints & Illustrated Books,Male,8,8,1.0
+1947.0,Architecture & Design,Female,2,39,0.05128205128205128
+1947.0,Architecture & Design,Male,18,39,0.46153846153846156
+1947.0,Architecture & Design,Unknown,19,39,0.48717948717948717
+1947.0,Drawings,Female,2,26,0.07692307692307693
+1947.0,Drawings,Male,24,26,0.9230769230769231
+1947.0,Film,Male,2,2,1.0
+1947.0,Painting & Sculpture,Female,1,13,0.07692307692307693
+1947.0,Painting & Sculpture,Male,12,13,0.9230769230769231
+1947.0,Photography,Male,3,4,0.75
+1947.0,Photography,Unknown,1,4,0.25
+1947.0,Prints & Illustrated Books,Female,8,67,0.11940298507462686
+1947.0,Prints & Illustrated Books,Male,57,67,0.8507462686567164
+1947.0,Prints & Illustrated Books,Unknown,2,67,0.029850746268656716
+1948.0,Architecture & Design,Female,7,68,0.10294117647058823
+1948.0,Architecture & Design,Male,34,68,0.5
+1948.0,Architecture & Design,Unknown,27,68,0.39705882352941174
+1948.0,Drawings,Female,1,22,0.045454545454545456
+1948.0,Drawings,Male,20,22,0.9090909090909091
+1948.0,Drawings,Unknown,1,22,0.045454545454545456
+1948.0,Painting & Sculpture,Male,11,11,1.0
+1948.0,Photography,Male,1,1,1.0
+1948.0,Prints & Illustrated Books,Female,5,51,0.09803921568627451
+1948.0,Prints & Illustrated Books,Male,46,51,0.9019607843137255
+1949.0,Architecture & Design,Male,8,9,0.8888888888888888
+1949.0,Architecture & Design,Unknown,1,9,0.1111111111111111
+1949.0,Drawings,Female,1,18,0.05555555555555555
+1949.0,Drawings,Male,17,18,0.9444444444444444
+1949.0,Painting & Sculpture,Female,1,19,0.05263157894736842
+1949.0,Painting & Sculpture,Male,18,19,0.9473684210526315
+1949.0,Prints & Illustrated Books,Female,23,219,0.1050228310502283
+1949.0,Prints & Illustrated Books,Male,190,219,0.867579908675799
+1949.0,Prints & Illustrated Books,Unknown,6,219,0.0273972602739726
+1950.0,Architecture & Design,Female,7,66,0.10606060606060606
+1950.0,Architecture & Design,Male,39,66,0.5909090909090909
+1950.0,Architecture & Design,Unknown,20,66,0.30303030303030304
+1950.0,Drawings,Female,1,19,0.05263157894736842
+1950.0,Drawings,Male,18,19,0.9473684210526315
+1950.0,Painting & Sculpture,Male,20,20,1.0
+1950.0,Photography,Male,2,2,1.0
+1950.0,Prints & Illustrated Books,Female,7,55,0.12727272727272726
+1950.0,Prints & Illustrated Books,Male,47,55,0.8545454545454545
+1950.0,Prints & Illustrated Books,Unknown,1,55,0.01818181818181818
+1951.0,Architecture & Design,Female,2,48,0.041666666666666664
+1951.0,Architecture & Design,Male,39,48,0.8125
+1951.0,Architecture & Design,Unknown,7,48,0.14583333333333334
+1951.0,Drawings,Female,2,13,0.15384615384615385
+1951.0,Drawings,Male,11,13,0.8461538461538461
+1951.0,Painting & Sculpture,Female,2,25,0.08
+1951.0,Painting & Sculpture,Male,23,25,0.92
+1951.0,Prints & Illustrated Books,Female,5,84,0.05952380952380952
+1951.0,Prints & Illustrated Books,Male,78,84,0.9285714285714286
+1951.0,Prints & Illustrated Books,Unknown,1,84,0.011904761904761904
+1952.0,Architecture & Design,Female,4,39,0.10256410256410256
+1952.0,Architecture & Design,Male,33,39,0.8461538461538461
+1952.0,Architecture & Design,Unknown,2,39,0.05128205128205128
+1952.0,Drawings,Male,10,10,1.0
+1952.0,Painting & Sculpture,Male,19,19,1.0
+1952.0,Photography,Female,1,2,0.5
+1952.0,Photography,Male,1,2,0.5
+1952.0,Prints & Illustrated Books,Female,12,104,0.11538461538461539
+1952.0,Prints & Illustrated Books,Male,91,104,0.875
+1952.0,Prints & Illustrated Books,Unknown,1,104,0.009615384615384616
+1953.0,Architecture & Design,Female,4,89,0.0449438202247191
+1953.0,Architecture & Design,Male,65,89,0.7303370786516854
+1953.0,Architecture & Design,Unknown,20,89,0.2247191011235955
+1953.0,Drawings,Female,3,32,0.09375
+1953.0,Drawings,Male,29,32,0.90625
+1953.0,Film,Male,1,1,1.0
+1953.0,Painting & Sculpture,Female,2,25,0.08
+1953.0,Painting & Sculpture,Male,23,25,0.92
+1953.0,Photography,Male,3,3,1.0
+1953.0,Prints & Illustrated Books,Female,3,54,0.05555555555555555
+1953.0,Prints & Illustrated Books,Male,51,54,0.9444444444444444
+1954.0,Architecture & Design,Female,5,62,0.08064516129032258
+1954.0,Architecture & Design,Male,49,62,0.7903225806451613
+1954.0,Architecture & Design,Unknown,8,62,0.12903225806451613
+1954.0,Drawings,Female,1,28,0.03571428571428571
+1954.0,Drawings,Male,27,28,0.9642857142857143
+1954.0,Film,Male,1,1,1.0
+1954.0,Painting & Sculpture,Female,4,28,0.14285714285714285
+1954.0,Painting & Sculpture,Male,24,28,0.8571428571428571
+1954.0,Photography,Female,3,24,0.125
+1954.0,Photography,Male,20,24,0.8333333333333334
+1954.0,Photography,Unknown,1,24,0.041666666666666664
+1954.0,Prints & Illustrated Books,Female,7,176,0.03977272727272727
+1954.0,Prints & Illustrated Books,Male,165,176,0.9375
+1954.0,Prints & Illustrated Books,Unknown,4,176,0.022727272727272728
+1955.0,Architecture & Design,Male,24,30,0.8
+1955.0,Architecture & Design,Unknown,6,30,0.2
+1955.0,Drawings,Female,2,20,0.1
+1955.0,Drawings,Male,18,20,0.9
+1955.0,Film,Male,3,3,1.0
+1955.0,Painting & Sculpture,Female,4,31,0.12903225806451613
+1955.0,Painting & Sculpture,Male,27,31,0.8709677419354839
+1955.0,Photography,Male,2,2,1.0
+1955.0,Prints & Illustrated Books,Female,2,82,0.024390243902439025
+1955.0,Prints & Illustrated Books,Male,79,82,0.9634146341463414
+1955.0,Prints & Illustrated Books,Unknown,1,82,0.012195121951219513
+1956.0,Architecture & Design,Female,4,125,0.032
+1956.0,Architecture & Design,Male,83,125,0.664
+1956.0,Architecture & Design,Unknown,38,125,0.304
+1956.0,Drawings,Female,1,38,0.02631578947368421
+1956.0,Drawings,Male,37,38,0.9736842105263158
+1956.0,Film,Female,1,3,0.3333333333333333
+1956.0,Film,Male,2,3,0.6666666666666666
+1956.0,Painting & Sculpture,Female,5,39,0.1282051282051282
+1956.0,Painting & Sculpture,Male,34,39,0.8717948717948718
+1956.0,Photography,Male,4,4,1.0
+1956.0,Prints & Illustrated Books,Female,2,117,0.017094017094017096
+1956.0,Prints & Illustrated Books,Male,107,117,0.9145299145299145
+1956.0,Prints & Illustrated Books,Unknown,8,117,0.06837606837606838
+1957.0,Architecture & Design,Female,3,49,0.061224489795918366
+1957.0,Architecture & Design,Male,39,49,0.7959183673469388
+1957.0,Architecture & Design,Unknown,7,49,0.14285714285714285
+1957.0,Drawings,Female,1,24,0.041666666666666664
+1957.0,Drawings,Male,23,24,0.9583333333333334
+1957.0,Painting & Sculpture,Female,1,23,0.043478260869565216
+1957.0,Painting & Sculpture,Male,22,23,0.9565217391304348
+1957.0,Photography,Male,1,1,1.0
+1957.0,Prints & Illustrated Books,Female,4,53,0.07547169811320754
+1957.0,Prints & Illustrated Books,Male,47,53,0.8867924528301887
+1957.0,Prints & Illustrated Books,Unknown,2,53,0.03773584905660377
+1958.0,Architecture & Design,Female,11,88,0.125
+1958.0,Architecture & Design,Male,63,88,0.7159090909090909
+1958.0,Architecture & Design,Unknown,14,88,0.1590909090909091
+1958.0,Drawings,Female,2,29,0.06896551724137931
+1958.0,Drawings,Male,27,29,0.9310344827586207
+1958.0,Film,Male,1,1,1.0
+1958.0,Painting & Sculpture,Female,2,37,0.05405405405405406
+1958.0,Painting & Sculpture,Male,35,37,0.9459459459459459
+1958.0,Prints & Illustrated Books,Female,10,154,0.06493506493506493
+1958.0,Prints & Illustrated Books,Male,121,154,0.7857142857142857
+1958.0,Prints & Illustrated Books,Unknown,23,154,0.14935064935064934
+1959.0,Architecture & Design,Female,1,12,0.08333333333333333
+1959.0,Architecture & Design,Male,6,12,0.5
+1959.0,Architecture & Design,Unknown,5,12,0.4166666666666667
+1959.0,Drawings,Male,9,9,1.0
+1959.0,Painting & Sculpture,Female,2,53,0.03773584905660377
+1959.0,Painting & Sculpture,Male,51,53,0.9622641509433962
+1959.0,Photography,Female,19,173,0.10982658959537572
+1959.0,Photography,Male,147,173,0.8497109826589595
+1959.0,Photography,Unknown,7,173,0.04046242774566474
+1959.0,Prints & Illustrated Books,Female,7,79,0.08860759493670886
+1959.0,Prints & Illustrated Books,Male,72,79,0.9113924050632911
+1960.0,Architecture & Design,Female,4,66,0.06060606060606061
+1960.0,Architecture & Design,Male,52,66,0.7878787878787878
+1960.0,Architecture & Design,Unknown,10,66,0.15151515151515152
+1960.0,Drawings,Male,22,22,1.0
+1960.0,Painting & Sculpture,Female,9,51,0.17647058823529413
+1960.0,Painting & Sculpture,Male,42,51,0.8235294117647058
+1960.0,Photography,Female,6,52,0.11538461538461539
+1960.0,Photography,Male,45,52,0.8653846153846154
+1960.0,Photography,Unknown,1,52,0.019230769230769232
+1960.0,Prints & Illustrated Books,Female,2,35,0.05714285714285714
+1960.0,Prints & Illustrated Books,Male,32,35,0.9142857142857143
+1960.0,Prints & Illustrated Books,Unknown,1,35,0.02857142857142857
+1961.0,Architecture & Design,Female,2,49,0.04081632653061224
+1961.0,Architecture & Design,Male,40,49,0.8163265306122449
+1961.0,Architecture & Design,Unknown,7,49,0.14285714285714285
+1961.0,Drawings,Female,4,36,0.1111111111111111
+1961.0,Drawings,Male,32,36,0.8888888888888888
+1961.0,Painting & Sculpture,Female,7,72,0.09722222222222222
+1961.0,Painting & Sculpture,Male,65,72,0.9027777777777778
+1961.0,Photography,Female,4,19,0.21052631578947367
+1961.0,Photography,Male,15,19,0.7894736842105263
+1961.0,Prints & Illustrated Books,Female,8,77,0.1038961038961039
+1961.0,Prints & Illustrated Books,Male,68,77,0.8831168831168831
+1961.0,Prints & Illustrated Books,Unknown,1,77,0.012987012987012988
+1962.0,Architecture & Design,Female,3,30,0.1
+1962.0,Architecture & Design,Male,20,30,0.6666666666666666
+1962.0,Architecture & Design,Unknown,7,30,0.23333333333333334
+1962.0,Drawings,Female,1,65,0.015384615384615385
+1962.0,Drawings,Male,64,65,0.9846153846153847
+1962.0,Painting & Sculpture,Female,2,28,0.07142857142857142
+1962.0,Painting & Sculpture,Male,26,28,0.9285714285714286
+1962.0,Photography,Female,4,23,0.17391304347826086
+1962.0,Photography,Male,18,23,0.782608695652174
+1962.0,Photography,Unknown,1,23,0.043478260869565216
+1962.0,Prints & Illustrated Books,Female,2,24,0.08333333333333333
+1962.0,Prints & Illustrated Books,Male,22,24,0.9166666666666666
+1963.0,Architecture & Design,Female,2,54,0.037037037037037035
+1963.0,Architecture & Design,Male,48,54,0.8888888888888888
+1963.0,Architecture & Design,Unknown,4,54,0.07407407407407407
+1963.0,Drawings,Female,6,78,0.07692307692307693
+1963.0,Drawings,Male,70,78,0.8974358974358975
+1963.0,Drawings,Unknown,2,78,0.02564102564102564
+1963.0,Painting & Sculpture,Female,2,41,0.04878048780487805
+1963.0,Painting & Sculpture,Male,39,41,0.9512195121951219
+1963.0,Photography,Female,2,14,0.14285714285714285
+1963.0,Photography,Male,11,14,0.7857142857142857
+1963.0,Photography,Unknown,1,14,0.07142857142857142
+1963.0,Prints & Illustrated Books,Female,12,120,0.1
+1963.0,Prints & Illustrated Books,Male,107,120,0.8916666666666667
+1963.0,Prints & Illustrated Books,Unknown,1,120,0.008333333333333333
+1964.0,Architecture & Design,Female,1,37,0.02702702702702703
+1964.0,Architecture & Design,Male,33,37,0.8918918918918919
+1964.0,Architecture & Design,Unknown,3,37,0.08108108108108109
+1964.0,Drawings,Female,7,39,0.1794871794871795
+1964.0,Drawings,Male,32,39,0.8205128205128205
+1964.0,Painting & Sculpture,Female,3,35,0.08571428571428572
+1964.0,Painting & Sculpture,Male,31,35,0.8857142857142857
+1964.0,Painting & Sculpture,Unknown,1,35,0.02857142857142857
+1964.0,Photography,Female,15,108,0.1388888888888889
+1964.0,Photography,Male,90,108,0.8333333333333334
+1964.0,Photography,Unknown,3,108,0.027777777777777776
+1964.0,Prints & Illustrated Books,Female,31,394,0.07868020304568528
+1964.0,Prints & Illustrated Books,Male,355,394,0.9010152284263959
+1964.0,Prints & Illustrated Books,Unknown,8,394,0.02030456852791878
+1965.0,Architecture & Design,Female,6,56,0.10714285714285714
+1965.0,Architecture & Design,Male,46,56,0.8214285714285714
+1965.0,Architecture & Design,Unknown,4,56,0.07142857142857142
+1965.0,Drawings,Female,6,62,0.0967741935483871
+1965.0,Drawings,Male,55,62,0.8870967741935484
+1965.0,Drawings,Unknown,1,62,0.016129032258064516
+1965.0,Painting & Sculpture,Female,4,56,0.07142857142857142
+1965.0,Painting & Sculpture,Male,52,56,0.9285714285714286
+1965.0,Photography,Female,6,55,0.10909090909090909
+1965.0,Photography,Male,49,55,0.8909090909090909
+1965.0,Prints & Illustrated Books,Female,13,183,0.07103825136612021
+1965.0,Prints & Illustrated Books,Male,167,183,0.912568306010929
+1965.0,Prints & Illustrated Books,Unknown,3,183,0.01639344262295082
+1966.0,Architecture & Design,Female,5,66,0.07575757575757576
+1966.0,Architecture & Design,Male,57,66,0.8636363636363636
+1966.0,Architecture & Design,Unknown,4,66,0.06060606060606061
+1966.0,Drawings,Female,3,54,0.05555555555555555
+1966.0,Drawings,Male,51,54,0.9444444444444444
+1966.0,Painting & Sculpture,Female,2,31,0.06451612903225806
+1966.0,Painting & Sculpture,Male,29,31,0.9354838709677419
+1966.0,Photography,Female,3,40,0.075
+1966.0,Photography,Male,35,40,0.875
+1966.0,Photography,Unknown,2,40,0.05
+1966.0,Prints & Illustrated Books,Female,7,125,0.056
+1966.0,Prints & Illustrated Books,Male,116,125,0.928
+1966.0,Prints & Illustrated Books,Unknown,2,125,0.016
+1967.0,Architecture & Design,Female,10,89,0.11235955056179775
+1967.0,Architecture & Design,Male,74,89,0.8314606741573034
+1967.0,Architecture & Design,Unknown,5,89,0.056179775280898875
+1967.0,Drawings,Female,4,73,0.0547945205479452
+1967.0,Drawings,Male,69,73,0.9452054794520548
+1967.0,Painting & Sculpture,Male,42,42,1.0
+1967.0,Photography,Female,4,42,0.09523809523809523
+1967.0,Photography,Male,37,42,0.8809523809523809
+1967.0,Photography,Unknown,1,42,0.023809523809523808
+1967.0,Prints & Illustrated Books,Female,23,326,0.0705521472392638
+1967.0,Prints & Illustrated Books,Male,298,326,0.9141104294478528
+1967.0,Prints & Illustrated Books,Unknown,5,326,0.015337423312883436
+1968.0,Architecture & Design,Female,2,126,0.015873015873015872
+1968.0,Architecture & Design,Male,113,126,0.8968253968253969
+1968.0,Architecture & Design,Unknown,11,126,0.0873015873015873
+1968.0,Drawings,Female,3,58,0.05172413793103448
+1968.0,Drawings,Male,54,58,0.9310344827586207
+1968.0,Drawings,Unknown,1,58,0.017241379310344827
+1968.0,Film,Male,1,1,1.0
+1968.0,Painting & Sculpture,Female,3,23,0.13043478260869565
+1968.0,Painting & Sculpture,Male,20,23,0.8695652173913043
+1968.0,Photography,Female,12,77,0.15584415584415584
+1968.0,Photography,Male,65,77,0.8441558441558441
+1968.0,Prints & Illustrated Books,Female,22,162,0.13580246913580246
+1968.0,Prints & Illustrated Books,Male,137,162,0.845679012345679
+1968.0,Prints & Illustrated Books,Unknown,3,162,0.018518518518518517
+1969.0,Architecture & Design,Female,2,49,0.04081632653061224
+1969.0,Architecture & Design,Male,44,49,0.8979591836734694
+1969.0,Architecture & Design,Unknown,3,49,0.061224489795918366
+1969.0,Drawings,Female,5,80,0.0625
+1969.0,Drawings,Male,74,80,0.925
+1969.0,Drawings,Unknown,1,80,0.0125
+1969.0,Film,Male,5,5,1.0
+1969.0,Painting & Sculpture,Female,4,47,0.0851063829787234
+1969.0,Painting & Sculpture,Male,43,47,0.9148936170212766
+1969.0,Photography,Female,4,44,0.09090909090909091
+1969.0,Photography,Male,40,44,0.9090909090909091
+1969.0,Prints & Illustrated Books,Female,25,217,0.1152073732718894
+1969.0,Prints & Illustrated Books,Male,190,217,0.8755760368663594
+1969.0,Prints & Illustrated Books,Unknown,2,217,0.009216589861751152
+1970.0,Architecture & Design,Female,5,36,0.1388888888888889
+1970.0,Architecture & Design,Male,28,36,0.7777777777777778
+1970.0,Architecture & Design,Unknown,3,36,0.08333333333333333
+1970.0,Drawings,Female,6,43,0.13953488372093023
+1970.0,Drawings,Male,37,43,0.8604651162790697
+1970.0,Film,Female,1,6,0.16666666666666666
+1970.0,Film,Male,5,6,0.8333333333333334
+1970.0,Painting & Sculpture,Female,3,33,0.09090909090909091
+1970.0,Painting & Sculpture,Male,30,33,0.9090909090909091
+1970.0,Photography,Female,3,49,0.061224489795918366
+1970.0,Photography,Male,43,49,0.8775510204081632
+1970.0,Photography,Unknown,3,49,0.061224489795918366
+1970.0,Prints & Illustrated Books,Female,12,109,0.11009174311926606
+1970.0,Prints & Illustrated Books,Male,93,109,0.8532110091743119
+1970.0,Prints & Illustrated Books,Unknown,4,109,0.03669724770642202
+1971.0,Architecture & Design,Male,3,3,1.0
+1971.0,Drawings,Female,3,36,0.08333333333333333
+1971.0,Drawings,Male,33,36,0.9166666666666666
+1971.0,Film,Female,2,7,0.2857142857142857
+1971.0,Film,Male,5,7,0.7142857142857143
+1971.0,Painting & Sculpture,Female,3,35,0.08571428571428572
+1971.0,Painting & Sculpture,Male,32,35,0.9142857142857143
+1971.0,Photography,Female,3,50,0.06
+1971.0,Photography,Male,45,50,0.9
+1971.0,Photography,Unknown,2,50,0.04
+1971.0,Prints & Illustrated Books,Female,9,81,0.1111111111111111
+1971.0,Prints & Illustrated Books,Male,72,81,0.8888888888888888
+1972.0,Architecture & Design,Female,2,39,0.05128205128205128
+1972.0,Architecture & Design,Male,31,39,0.7948717948717948
+1972.0,Architecture & Design,Unknown,6,39,0.15384615384615385
+1972.0,Drawings,Female,3,26,0.11538461538461539
+1972.0,Drawings,Male,23,26,0.8846153846153846
+1972.0,Film,Male,5,5,1.0
+1972.0,Painting & Sculpture,Male,9,9,1.0
+1972.0,Photography,Female,5,45,0.1111111111111111
+1972.0,Photography,Male,40,45,0.8888888888888888
+1972.0,Prints & Illustrated Books,Female,9,61,0.14754098360655737
+1972.0,Prints & Illustrated Books,Male,52,61,0.8524590163934426
+1973.0,Architecture & Design,Male,11,12,0.9166666666666666
+1973.0,Architecture & Design,Unknown,1,12,0.08333333333333333
+1973.0,Drawings,Female,3,38,0.07894736842105263
+1973.0,Drawings,Male,35,38,0.9210526315789473
+1973.0,Film,Male,2,2,1.0
+1973.0,Painting & Sculpture,Female,2,21,0.09523809523809523
+1973.0,Painting & Sculpture,Male,19,21,0.9047619047619048
+1973.0,Photography,Female,6,55,0.10909090909090909
+1973.0,Photography,Male,48,55,0.8727272727272727
+1973.0,Photography,Unknown,1,55,0.01818181818181818
+1973.0,Prints & Illustrated Books,Female,15,119,0.12605042016806722
+1973.0,Prints & Illustrated Books,Male,102,119,0.8571428571428571
+1973.0,Prints & Illustrated Books,Unknown,2,119,0.01680672268907563
+1974.0,Architecture & Design,Female,3,27,0.1111111111111111
+1974.0,Architecture & Design,Male,21,27,0.7777777777777778
+1974.0,Architecture & Design,Unknown,3,27,0.1111111111111111
+1974.0,Drawings,Female,5,45,0.1111111111111111
+1974.0,Drawings,Male,40,45,0.8888888888888888
+1974.0,Film,Male,2,3,0.6666666666666666
+1974.0,Film,Unknown,1,3,0.3333333333333333
+1974.0,Painting & Sculpture,Female,1,14,0.07142857142857142
+1974.0,Painting & Sculpture,Male,13,14,0.9285714285714286
+1974.0,Photography,Female,13,62,0.20967741935483872
+1974.0,Photography,Male,47,62,0.7580645161290323
+1974.0,Photography,Unknown,2,62,0.03225806451612903
+1974.0,Prints & Illustrated Books,Female,31,207,0.1497584541062802
+1974.0,Prints & Illustrated Books,Male,175,207,0.8454106280193237
+1974.0,Prints & Illustrated Books,Unknown,1,207,0.004830917874396135
+1975.0,Architecture & Design,Female,5,16,0.3125
+1975.0,Architecture & Design,Male,11,16,0.6875
+1975.0,Drawings,Female,1,35,0.02857142857142857
+1975.0,Drawings,Male,34,35,0.9714285714285714
+1975.0,Film,Male,1,1,1.0
+1975.0,Media and Performance Art,Female,1,4,0.25
+1975.0,Media and Performance Art,Male,3,4,0.75
+1975.0,Painting & Sculpture,Female,3,24,0.125
+1975.0,Painting & Sculpture,Male,21,24,0.875
+1975.0,Photography,Female,8,59,0.13559322033898305
+1975.0,Photography,Male,49,59,0.8305084745762712
+1975.0,Photography,Unknown,2,59,0.03389830508474576
+1975.0,Prints & Illustrated Books,Female,8,74,0.10810810810810811
+1975.0,Prints & Illustrated Books,Male,64,74,0.8648648648648649
+1975.0,Prints & Illustrated Books,Unknown,2,74,0.02702702702702703
+1976.0,Architecture & Design,Female,1,44,0.022727272727272728
+1976.0,Architecture & Design,Male,39,44,0.8863636363636364
+1976.0,Architecture & Design,Unknown,4,44,0.09090909090909091
+1976.0,Drawings,Female,6,37,0.16216216216216217
+1976.0,Drawings,Male,30,37,0.8108108108108109
+1976.0,Drawings,Unknown,1,37,0.02702702702702703
+1976.0,Film,Male,3,3,1.0
+1976.0,Media and Performance Art,Female,2,5,0.4
+1976.0,Media and Performance Art,Male,3,5,0.6
+1976.0,Painting & Sculpture,Female,2,17,0.11764705882352941
+1976.0,Painting & Sculpture,Male,15,17,0.8823529411764706
+1976.0,Photography,Female,5,67,0.07462686567164178
+1976.0,Photography,Male,58,67,0.8656716417910447
+1976.0,Photography,Unknown,4,67,0.05970149253731343
+1976.0,Prints & Illustrated Books,Female,6,104,0.057692307692307696
+1976.0,Prints & Illustrated Books,Male,96,104,0.9230769230769231
+1976.0,Prints & Illustrated Books,Unknown,2,104,0.019230769230769232
+1977.0,Architecture & Design,Female,4,68,0.058823529411764705
+1977.0,Architecture & Design,Male,60,68,0.8823529411764706
+1977.0,Architecture & Design,Unknown,4,68,0.058823529411764705
+1977.0,Drawings,Female,12,61,0.19672131147540983
+1977.0,Drawings,Male,49,61,0.8032786885245902
+1977.0,Film,Male,5,5,1.0
+1977.0,Painting & Sculpture,Male,17,17,1.0
+1977.0,Photography,Female,8,69,0.11594202898550725
+1977.0,Photography,Male,61,69,0.8840579710144928
+1977.0,Prints & Illustrated Books,Female,36,163,0.22085889570552147
+1977.0,Prints & Illustrated Books,Male,121,163,0.7423312883435583
+1977.0,Prints & Illustrated Books,Unknown,6,163,0.03680981595092025
+1978.0,Architecture & Design,Female,2,43,0.046511627906976744
+1978.0,Architecture & Design,Male,39,43,0.9069767441860465
+1978.0,Architecture & Design,Unknown,2,43,0.046511627906976744
+1978.0,Drawings,Female,19,153,0.12418300653594772
+1978.0,Drawings,Male,134,153,0.8758169934640523
+1978.0,Film,Female,1,4,0.25
+1978.0,Film,Male,3,4,0.75
+1978.0,Painting & Sculpture,Female,2,23,0.08695652173913043
+1978.0,Painting & Sculpture,Male,21,23,0.9130434782608695
+1978.0,Photography,Female,11,66,0.16666666666666666
+1978.0,Photography,Male,51,66,0.7727272727272727
+1978.0,Photography,Unknown,4,66,0.06060606060606061
+1978.0,Prints & Illustrated Books,Female,9,48,0.1875
+1978.0,Prints & Illustrated Books,Male,38,48,0.7916666666666666
+1978.0,Prints & Illustrated Books,Unknown,1,48,0.020833333333333332
+1979.0,Architecture & Design,Female,2,42,0.047619047619047616
+1979.0,Architecture & Design,Male,40,42,0.9523809523809523
+1979.0,Drawings,Female,17,75,0.22666666666666666
+1979.0,Drawings,Male,58,75,0.7733333333333333
+1979.0,Film,Male,3,4,0.75
+1979.0,Film,Unknown,1,4,0.25
+1979.0,Media and Performance Art,Female,4,20,0.2
+1979.0,Media and Performance Art,Male,15,20,0.75
+1979.0,Media and Performance Art,Unknown,1,20,0.05
+1979.0,Painting & Sculpture,Female,4,34,0.11764705882352941
+1979.0,Painting & Sculpture,Male,30,34,0.8823529411764706
+1979.0,Photography,Female,9,72,0.125
+1979.0,Photography,Male,61,72,0.8472222222222222
+1979.0,Photography,Unknown,2,72,0.027777777777777776
+1979.0,Prints & Illustrated Books,Female,12,103,0.11650485436893204
+1979.0,Prints & Illustrated Books,Male,89,103,0.8640776699029126
+1979.0,Prints & Illustrated Books,Unknown,2,103,0.019417475728155338
+1980.0,Architecture & Design,Female,6,76,0.07894736842105263
+1980.0,Architecture & Design,Male,62,76,0.8157894736842105
+1980.0,Architecture & Design,Unknown,8,76,0.10526315789473684
+1980.0,Drawings,Female,5,52,0.09615384615384616
+1980.0,Drawings,Male,47,52,0.9038461538461539
+1980.0,Film,Male,2,2,1.0
+1980.0,Media and Performance Art,Female,3,10,0.3
+1980.0,Media and Performance Art,Male,4,10,0.4
+1980.0,Media and Performance Art,Unknown,3,10,0.3
+1980.0,Painting & Sculpture,Female,1,10,0.1
+1980.0,Painting & Sculpture,Male,9,10,0.9
+1980.0,Photography,Female,13,49,0.2653061224489796
+1980.0,Photography,Male,36,49,0.7346938775510204
+1980.0,Prints & Illustrated Books,Female,12,60,0.2
+1980.0,Prints & Illustrated Books,Male,48,60,0.8
+1981.0,Architecture & Design,Female,6,94,0.06382978723404255
+1981.0,Architecture & Design,Male,78,94,0.8297872340425532
+1981.0,Architecture & Design,Unknown,10,94,0.10638297872340426
+1981.0,Drawings,Female,3,31,0.0967741935483871
+1981.0,Drawings,Male,28,31,0.9032258064516129
+1981.0,Film,Male,1,2,0.5
+1981.0,Film,Unknown,1,2,0.5
+1981.0,Media and Performance Art,Female,5,21,0.23809523809523808
+1981.0,Media and Performance Art,Male,16,21,0.7619047619047619
+1981.0,Painting & Sculpture,Female,1,13,0.07692307692307693
+1981.0,Painting & Sculpture,Male,12,13,0.9230769230769231
+1981.0,Photography,Female,9,86,0.10465116279069768
+1981.0,Photography,Male,74,86,0.8604651162790697
+1981.0,Photography,Unknown,3,86,0.03488372093023256
+1981.0,Prints & Illustrated Books,Female,8,89,0.0898876404494382
+1981.0,Prints & Illustrated Books,Male,78,89,0.8764044943820225
+1981.0,Prints & Illustrated Books,Unknown,3,89,0.033707865168539325
+1982.0,Architecture & Design,Female,3,42,0.07142857142857142
+1982.0,Architecture & Design,Male,38,42,0.9047619047619048
+1982.0,Architecture & Design,Unknown,1,42,0.023809523809523808
+1982.0,Drawings,Female,2,30,0.06666666666666667
+1982.0,Drawings,Male,28,30,0.9333333333333333
+1982.0,Media and Performance Art,Female,4,10,0.4
+1982.0,Media and Performance Art,Male,5,10,0.5
+1982.0,Media and Performance Art,Unknown,1,10,0.1
+1982.0,Painting & Sculpture,Female,2,17,0.11764705882352941
+1982.0,Painting & Sculpture,Male,15,17,0.8823529411764706
+1982.0,Photography,Female,8,105,0.0761904761904762
+1982.0,Photography,Male,73,105,0.6952380952380952
+1982.0,Photography,Unknown,24,105,0.22857142857142856
+1982.0,Prints & Illustrated Books,Female,9,86,0.10465116279069768
+1982.0,Prints & Illustrated Books,Male,76,86,0.8837209302325582
+1982.0,Prints & Illustrated Books,Unknown,1,86,0.011627906976744186
+1983.0,Architecture & Design,Female,9,141,0.06382978723404255
+1983.0,Architecture & Design,Male,120,141,0.851063829787234
+1983.0,Architecture & Design,Unknown,12,141,0.0851063829787234
+1983.0,Drawings,Female,5,37,0.13513513513513514
+1983.0,Drawings,Male,32,37,0.8648648648648649
+1983.0,Film,Male,1,1,1.0
+1983.0,Media and Performance Art,Female,2,9,0.2222222222222222
+1983.0,Media and Performance Art,Male,7,9,0.7777777777777778
+1983.0,Painting & Sculpture,Female,9,31,0.2903225806451613
+1983.0,Painting & Sculpture,Male,22,31,0.7096774193548387
+1983.0,Photography,Female,11,92,0.11956521739130435
+1983.0,Photography,Male,78,92,0.8478260869565217
+1983.0,Photography,Unknown,3,92,0.03260869565217391
+1983.0,Prints & Illustrated Books,Female,10,63,0.15873015873015872
+1983.0,Prints & Illustrated Books,Male,53,63,0.8412698412698413
+1984.0,Architecture & Design,Female,3,52,0.057692307692307696
+1984.0,Architecture & Design,Male,41,52,0.7884615384615384
+1984.0,Architecture & Design,Unknown,8,52,0.15384615384615385
+1984.0,Drawings,Female,8,39,0.20512820512820512
+1984.0,Drawings,Male,31,39,0.7948717948717948
+1984.0,Film,Female,1,1,1.0
+1984.0,Media and Performance Art,Female,20,52,0.38461538461538464
+1984.0,Media and Performance Art,Male,32,52,0.6153846153846154
+1984.0,Painting & Sculpture,Female,3,20,0.15
+1984.0,Painting & Sculpture,Male,17,20,0.85
+1984.0,Photography,Female,11,70,0.15714285714285714
+1984.0,Photography,Male,58,70,0.8285714285714286
+1984.0,Photography,Unknown,1,70,0.014285714285714285
+1984.0,Prints & Illustrated Books,Female,6,80,0.075
+1984.0,Prints & Illustrated Books,Male,73,80,0.9125
+1984.0,Prints & Illustrated Books,Unknown,1,80,0.0125
+1985.0,Architecture & Design,Female,3,53,0.05660377358490566
+1985.0,Architecture & Design,Male,44,53,0.8301886792452831
+1985.0,Architecture & Design,Unknown,6,53,0.11320754716981132
+1985.0,Drawings,Female,16,96,0.16666666666666666
+1985.0,Drawings,Male,80,96,0.8333333333333334
+1985.0,Film,Male,1,1,1.0
+1985.0,Media and Performance Art,Female,2,13,0.15384615384615385
+1985.0,Media and Performance Art,Male,11,13,0.8461538461538461
+1985.0,Painting & Sculpture,Female,5,64,0.078125
+1985.0,Painting & Sculpture,Male,59,64,0.921875
+1985.0,Photography,Female,12,62,0.1935483870967742
+1985.0,Photography,Male,48,62,0.7741935483870968
+1985.0,Photography,Unknown,2,62,0.03225806451612903
+1985.0,Prints & Illustrated Books,Female,15,123,0.12195121951219512
+1985.0,Prints & Illustrated Books,Male,103,123,0.8373983739837398
+1985.0,Prints & Illustrated Books,Unknown,5,123,0.04065040650406504
+1986.0,Architecture & Design,Female,1,41,0.024390243902439025
+1986.0,Architecture & Design,Male,36,41,0.8780487804878049
+1986.0,Architecture & Design,Unknown,4,41,0.0975609756097561
+1986.0,Drawings,Female,5,36,0.1388888888888889
+1986.0,Drawings,Male,31,36,0.8611111111111112
+1986.0,Film,Male,1,2,0.5
+1986.0,Film,Unknown,1,2,0.5
+1986.0,Media and Performance Art,Female,7,57,0.12280701754385964
+1986.0,Media and Performance Art,Male,46,57,0.8070175438596491
+1986.0,Media and Performance Art,Unknown,4,57,0.07017543859649122
+1986.0,Painting & Sculpture,Female,2,20,0.1
+1986.0,Painting & Sculpture,Male,18,20,0.9
+1986.0,Photography,Female,13,89,0.14606741573033707
+1986.0,Photography,Male,74,89,0.8314606741573034
+1986.0,Photography,Unknown,2,89,0.02247191011235955
+1986.0,Prints & Illustrated Books,Female,9,103,0.08737864077669903
+1986.0,Prints & Illustrated Books,Male,92,103,0.8932038834951457
+1986.0,Prints & Illustrated Books,Unknown,2,103,0.019417475728155338
+1987.0,Architecture & Design,Female,6,77,0.07792207792207792
+1987.0,Architecture & Design,Male,63,77,0.8181818181818182
+1987.0,Architecture & Design,Unknown,8,77,0.1038961038961039
+1987.0,Drawings,Male,18,18,1.0
+1987.0,Media and Performance Art,Female,3,9,0.3333333333333333
+1987.0,Media and Performance Art,Male,6,9,0.6666666666666666
+1987.0,Painting & Sculpture,Female,5,19,0.2631578947368421
+1987.0,Painting & Sculpture,Male,14,19,0.7368421052631579
+1987.0,Photography,Female,16,73,0.2191780821917808
+1987.0,Photography,Male,55,73,0.7534246575342466
+1987.0,Photography,Unknown,2,73,0.0273972602739726
+1987.0,Prints & Illustrated Books,Female,40,244,0.16393442622950818
+1987.0,Prints & Illustrated Books,Male,198,244,0.8114754098360656
+1987.0,Prints & Illustrated Books,Unknown,6,244,0.02459016393442623
+1988.0,Architecture & Design,Female,6,52,0.11538461538461539
+1988.0,Architecture & Design,Male,37,52,0.7115384615384616
+1988.0,Architecture & Design,Unknown,9,52,0.17307692307692307
+1988.0,Drawings,Female,5,37,0.13513513513513514
+1988.0,Drawings,Male,32,37,0.8648648648648649
+1988.0,Film,Female,3,4,0.75
+1988.0,Film,Male,1,4,0.25
+1988.0,Media and Performance Art,Female,14,31,0.45161290322580644
+1988.0,Media and Performance Art,Male,14,31,0.45161290322580644
+1988.0,Media and Performance Art,Unknown,3,31,0.0967741935483871
+1988.0,Painting & Sculpture,Female,3,11,0.2727272727272727
+1988.0,Painting & Sculpture,Male,8,11,0.7272727272727273
+1988.0,Photography,Female,12,71,0.16901408450704225
+1988.0,Photography,Male,57,71,0.8028169014084507
+1988.0,Photography,Unknown,2,71,0.028169014084507043
+1988.0,Prints & Illustrated Books,Female,21,110,0.19090909090909092
+1988.0,Prints & Illustrated Books,Male,87,110,0.7909090909090909
+1988.0,Prints & Illustrated Books,Unknown,2,110,0.01818181818181818
+1989.0,Architecture & Design,Female,1,12,0.08333333333333333
+1989.0,Architecture & Design,Male,11,12,0.9166666666666666
+1989.0,Drawings,Female,1,15,0.06666666666666667
+1989.0,Drawings,Male,14,15,0.9333333333333333
+1989.0,Film,Female,1,9,0.1111111111111111
+1989.0,Film,Male,4,9,0.4444444444444444
+1989.0,Film,Unknown,4,9,0.4444444444444444
+1989.0,Media and Performance Art,Female,2,10,0.2
+1989.0,Media and Performance Art,Male,8,10,0.8
+1989.0,Painting & Sculpture,Female,1,12,0.08333333333333333
+1989.0,Painting & Sculpture,Male,11,12,0.9166666666666666
+1989.0,Photography,Female,11,95,0.11578947368421053
+1989.0,Photography,Male,82,95,0.8631578947368421
+1989.0,Photography,Unknown,2,95,0.021052631578947368
+1989.0,Prints & Illustrated Books,Female,17,106,0.16037735849056603
+1989.0,Prints & Illustrated Books,Male,87,106,0.8207547169811321
+1989.0,Prints & Illustrated Books,Unknown,2,106,0.018867924528301886
+1990.0,Architecture & Design,Female,5,62,0.08064516129032258
+1990.0,Architecture & Design,Male,42,62,0.6774193548387096
+1990.0,Architecture & Design,Unknown,15,62,0.24193548387096775
+1990.0,Drawings,Female,9,32,0.28125
+1990.0,Drawings,Male,23,32,0.71875
+1990.0,Film,Male,4,4,1.0
+1990.0,Media and Performance Art,Female,5,7,0.7142857142857143
+1990.0,Media and Performance Art,Male,2,7,0.2857142857142857
+1990.0,Painting & Sculpture,Female,1,19,0.05263157894736842
+1990.0,Painting & Sculpture,Male,18,19,0.9473684210526315
+1990.0,Photography,Female,12,63,0.19047619047619047
+1990.0,Photography,Male,47,63,0.746031746031746
+1990.0,Photography,Unknown,4,63,0.06349206349206349
+1990.0,Prints & Illustrated Books,Female,16,109,0.14678899082568808
+1990.0,Prints & Illustrated Books,Male,92,109,0.8440366972477065
+1990.0,Prints & Illustrated Books,Unknown,1,109,0.009174311926605505
+1991.0,Architecture & Design,Female,1,17,0.058823529411764705
+1991.0,Architecture & Design,Male,14,17,0.8235294117647058
+1991.0,Architecture & Design,Unknown,2,17,0.11764705882352941
+1991.0,Drawings,Male,25,25,1.0
+1991.0,Film,Female,3,8,0.375
+1991.0,Film,Male,5,8,0.625
+1991.0,Media and Performance Art,Female,3,8,0.375
+1991.0,Media and Performance Art,Male,5,8,0.625
+1991.0,Painting & Sculpture,Female,6,36,0.16666666666666666
+1991.0,Painting & Sculpture,Male,30,36,0.8333333333333334
+1991.0,Photography,Female,15,70,0.21428571428571427
+1991.0,Photography,Male,50,70,0.7142857142857143
+1991.0,Photography,Unknown,5,70,0.07142857142857142
+1991.0,Prints & Illustrated Books,Female,24,105,0.22857142857142856
+1991.0,Prints & Illustrated Books,Male,80,105,0.7619047619047619
+1991.0,Prints & Illustrated Books,Unknown,1,105,0.009523809523809525
+1992.0,Architecture & Design,Female,2,37,0.05405405405405406
+1992.0,Architecture & Design,Male,30,37,0.8108108108108109
+1992.0,Architecture & Design,Unknown,5,37,0.13513513513513514
+1992.0,Drawings,Female,2,19,0.10526315789473684
+1992.0,Drawings,Male,17,19,0.8947368421052632
+1992.0,Film,Male,5,5,1.0
+1992.0,Media and Performance Art,Female,2,7,0.2857142857142857
+1992.0,Media and Performance Art,Male,4,7,0.5714285714285714
+1992.0,Media and Performance Art,Unknown,1,7,0.14285714285714285
+1992.0,Painting & Sculpture,Female,5,25,0.2
+1992.0,Painting & Sculpture,Male,20,25,0.8
+1992.0,Photography,Female,24,121,0.19834710743801653
+1992.0,Photography,Male,95,121,0.7851239669421488
+1992.0,Photography,Unknown,2,121,0.01652892561983471
+1992.0,Prints & Illustrated Books,Female,22,128,0.171875
+1992.0,Prints & Illustrated Books,Male,103,128,0.8046875
+1992.0,Prints & Illustrated Books,Unknown,3,128,0.0234375
+1993.0,Architecture & Design,Female,3,36,0.08333333333333333
+1993.0,Architecture & Design,Male,26,36,0.7222222222222222
+1993.0,Architecture & Design,Unknown,7,36,0.19444444444444445
+1993.0,Drawings,Female,3,17,0.17647058823529413
+1993.0,Drawings,Male,14,17,0.8235294117647058
+1993.0,Film,Male,2,2,1.0
+1993.0,Media and Performance Art,Female,3,10,0.3
+1993.0,Media and Performance Art,Male,7,10,0.7
+1993.0,Painting & Sculpture,Male,12,12,1.0
+1993.0,Photography,Female,13,74,0.17567567567567569
+1993.0,Photography,Male,60,74,0.8108108108108109
+1993.0,Photography,Unknown,1,74,0.013513513513513514
+1993.0,Prints & Illustrated Books,Female,26,120,0.21666666666666667
+1993.0,Prints & Illustrated Books,Male,90,120,0.75
+1993.0,Prints & Illustrated Books,Unknown,4,120,0.03333333333333333
+1994.0,Architecture & Design,Female,3,65,0.046153846153846156
+1994.0,Architecture & Design,Male,54,65,0.8307692307692308
+1994.0,Architecture & Design,Unknown,8,65,0.12307692307692308
+1994.0,Drawings,Male,4,4,1.0
+1994.0,Film,Male,1,1,1.0
+1994.0,Media and Performance Art,Female,4,20,0.2
+1994.0,Media and Performance Art,Male,16,20,0.8
+1994.0,Painting & Sculpture,Female,7,32,0.21875
+1994.0,Painting & Sculpture,Male,25,32,0.78125
+1994.0,Photography,Female,19,94,0.20212765957446807
+1994.0,Photography,Male,73,94,0.776595744680851
+1994.0,Photography,Unknown,2,94,0.02127659574468085
+1994.0,Prints & Illustrated Books,Female,16,84,0.19047619047619047
+1994.0,Prints & Illustrated Books,Male,67,84,0.7976190476190477
+1994.0,Prints & Illustrated Books,Unknown,1,84,0.011904761904761904
+1995.0,Architecture & Design,Female,5,54,0.09259259259259259
+1995.0,Architecture & Design,Male,37,54,0.6851851851851852
+1995.0,Architecture & Design,Unknown,12,54,0.2222222222222222
+1995.0,Drawings,Female,6,21,0.2857142857142857
+1995.0,Drawings,Male,15,21,0.7142857142857143
+1995.0,Film,Female,1,4,0.25
+1995.0,Film,Male,2,4,0.5
+1995.0,Film,Unknown,1,4,0.25
+1995.0,Media and Performance Art,Male,2,2,1.0
+1995.0,Painting & Sculpture,Female,2,17,0.11764705882352941
+1995.0,Painting & Sculpture,Male,15,17,0.8823529411764706
+1995.0,Photography,Female,13,39,0.3333333333333333
+1995.0,Photography,Male,25,39,0.6410256410256411
+1995.0,Photography,Unknown,1,39,0.02564102564102564
+1995.0,Prints & Illustrated Books,Female,19,87,0.21839080459770116
+1995.0,Prints & Illustrated Books,Male,65,87,0.7471264367816092
+1995.0,Prints & Illustrated Books,Unknown,3,87,0.034482758620689655
+1996.0,Architecture & Design,Female,5,74,0.06756756756756757
+1996.0,Architecture & Design,Male,50,74,0.6756756756756757
+1996.0,Architecture & Design,Unknown,19,74,0.25675675675675674
+1996.0,Drawings,Female,9,38,0.23684210526315788
+1996.0,Drawings,Male,29,38,0.7631578947368421
+1996.0,Painting & Sculpture,Female,5,27,0.18518518518518517
+1996.0,Painting & Sculpture,Male,22,27,0.8148148148148148
+1996.0,Photography,Female,6,45,0.13333333333333333
+1996.0,Photography,Male,38,45,0.8444444444444444
+1996.0,Photography,Unknown,1,45,0.022222222222222223
+1996.0,Prints & Illustrated Books,Female,20,73,0.273972602739726
+1996.0,Prints & Illustrated Books,Male,52,73,0.7123287671232876
+1996.0,Prints & Illustrated Books,Unknown,1,73,0.0136986301369863
+1997.0,Architecture & Design,Female,3,66,0.045454545454545456
+1997.0,Architecture & Design,Male,41,66,0.6212121212121212
+1997.0,Architecture & Design,Unknown,22,66,0.3333333333333333
+1997.0,Drawings,Female,6,24,0.25
+1997.0,Drawings,Male,18,24,0.75
+1997.0,Film,Male,4,4,1.0
+1997.0,Media and Performance Art,Female,2,9,0.2222222222222222
+1997.0,Media and Performance Art,Male,6,9,0.6666666666666666
+1997.0,Media and Performance Art,Unknown,1,9,0.1111111111111111
+1997.0,Painting & Sculpture,Female,7,25,0.28
+1997.0,Painting & Sculpture,Male,18,25,0.72
+1997.0,Photography,Female,19,68,0.27941176470588236
+1997.0,Photography,Male,48,68,0.7058823529411765
+1997.0,Photography,Unknown,1,68,0.014705882352941176
+1997.0,Prints & Illustrated Books,Female,21,122,0.1721311475409836
+1997.0,Prints & Illustrated Books,Male,98,122,0.8032786885245902
+1997.0,Prints & Illustrated Books,Unknown,3,122,0.02459016393442623
+1998.0,Architecture & Design,Female,3,72,0.041666666666666664
+1998.0,Architecture & Design,Male,59,72,0.8194444444444444
+1998.0,Architecture & Design,Unknown,10,72,0.1388888888888889
+1998.0,Drawings,Female,5,27,0.18518518518518517
+1998.0,Drawings,Male,22,27,0.8148148148148148
+1998.0,Film,Male,2,2,1.0
+1998.0,Media and Performance Art,Female,6,14,0.42857142857142855
+1998.0,Media and Performance Art,Male,8,14,0.5714285714285714
+1998.0,Painting & Sculpture,Female,2,28,0.07142857142857142
+1998.0,Painting & Sculpture,Male,26,28,0.9285714285714286
+1998.0,Photography,Female,14,59,0.23728813559322035
+1998.0,Photography,Male,43,59,0.7288135593220338
+1998.0,Photography,Unknown,2,59,0.03389830508474576
+1998.0,Prints & Illustrated Books,Female,51,164,0.31097560975609756
+1998.0,Prints & Illustrated Books,Male,110,164,0.6707317073170732
+1998.0,Prints & Illustrated Books,Unknown,3,164,0.018292682926829267
+1999.0,Architecture & Design,Female,1,66,0.015151515151515152
+1999.0,Architecture & Design,Male,55,66,0.8333333333333334
+1999.0,Architecture & Design,Unknown,10,66,0.15151515151515152
+1999.0,Drawings,Female,12,48,0.25
+1999.0,Drawings,Male,36,48,0.75
+1999.0,Film,Male,7,7,1.0
+1999.0,Media and Performance Art,Female,12,19,0.631578947368421
+1999.0,Media and Performance Art,Male,7,19,0.3684210526315789
+1999.0,Painting & Sculpture,Female,2,15,0.13333333333333333
+1999.0,Painting & Sculpture,Male,13,15,0.8666666666666667
+1999.0,Photography,Female,5,38,0.13157894736842105
+1999.0,Photography,Male,33,38,0.868421052631579
+1999.0,Prints & Illustrated Books,Female,25,91,0.27472527472527475
+1999.0,Prints & Illustrated Books,Male,64,91,0.7032967032967034
+1999.0,Prints & Illustrated Books,Unknown,2,91,0.02197802197802198
+2000.0,Architecture & Design,Female,9,152,0.05921052631578947
+2000.0,Architecture & Design,Male,129,152,0.8486842105263158
+2000.0,Architecture & Design,Unknown,14,152,0.09210526315789473
+2000.0,Drawings,Female,8,33,0.24242424242424243
+2000.0,Drawings,Male,24,33,0.7272727272727273
+2000.0,Drawings,Unknown,1,33,0.030303030303030304
+2000.0,Film,Female,3,3,1.0
+2000.0,Media and Performance Art,Female,14,31,0.45161290322580644
+2000.0,Media and Performance Art,Male,17,31,0.5483870967741935
+2000.0,Painting & Sculpture,Female,2,12,0.16666666666666666
+2000.0,Painting & Sculpture,Male,10,12,0.8333333333333334
+2000.0,Photography,Female,6,21,0.2857142857142857
+2000.0,Photography,Male,14,21,0.6666666666666666
+2000.0,Photography,Unknown,1,21,0.047619047619047616
+2000.0,Prints & Illustrated Books,Female,18,52,0.34615384615384615
+2000.0,Prints & Illustrated Books,Male,32,52,0.6153846153846154
+2000.0,Prints & Illustrated Books,Unknown,2,52,0.038461538461538464
+2001.0,Architecture & Design,Female,8,122,0.06557377049180328
+2001.0,Architecture & Design,Male,99,122,0.8114754098360656
+2001.0,Architecture & Design,Unknown,15,122,0.12295081967213115
+2001.0,Drawings,Female,15,69,0.21739130434782608
+2001.0,Drawings,Male,54,69,0.782608695652174
+2001.0,Film,Male,3,4,0.75
+2001.0,Film,Unknown,1,4,0.25
+2001.0,Media and Performance Art,Female,3,7,0.42857142857142855
+2001.0,Media and Performance Art,Male,4,7,0.5714285714285714
+2001.0,Painting & Sculpture,Female,4,18,0.2222222222222222
+2001.0,Painting & Sculpture,Male,14,18,0.7777777777777778
+2001.0,Photography,Female,36,289,0.1245674740484429
+2001.0,Photography,Male,198,289,0.6851211072664359
+2001.0,Photography,Unknown,55,289,0.1903114186851211
+2001.0,Prints & Illustrated Books,Female,56,389,0.14395886889460155
+2001.0,Prints & Illustrated Books,Male,248,389,0.6375321336760925
+2001.0,Prints & Illustrated Books,Unknown,85,389,0.2185089974293059
+2002.0,Architecture & Design,Female,2,28,0.07142857142857142
+2002.0,Architecture & Design,Male,24,28,0.8571428571428571
+2002.0,Architecture & Design,Unknown,2,28,0.07142857142857142
+2002.0,Drawings,Female,8,34,0.23529411764705882
+2002.0,Drawings,Male,26,34,0.7647058823529411
+2002.0,Film,Female,11,76,0.14473684210526316
+2002.0,Film,Male,63,76,0.8289473684210527
+2002.0,Film,Unknown,2,76,0.02631578947368421
+2002.0,Media and Performance Art,Female,3,4,0.75
+2002.0,Media and Performance Art,Male,1,4,0.25
+2002.0,Painting & Sculpture,Female,7,27,0.25925925925925924
+2002.0,Painting & Sculpture,Male,20,27,0.7407407407407407
+2002.0,Photography,Female,8,31,0.25806451612903225
+2002.0,Photography,Male,21,31,0.6774193548387096
+2002.0,Photography,Unknown,2,31,0.06451612903225806
+2002.0,Prints & Illustrated Books,Female,20,61,0.32786885245901637
+2002.0,Prints & Illustrated Books,Male,37,61,0.6065573770491803
+2002.0,Prints & Illustrated Books,Unknown,4,61,0.06557377049180328
+2003.0,Architecture & Design,Female,1,35,0.02857142857142857
+2003.0,Architecture & Design,Male,29,35,0.8285714285714286
+2003.0,Architecture & Design,Unknown,5,35,0.14285714285714285
+2003.0,Drawings,Female,11,36,0.3055555555555556
+2003.0,Drawings,Male,24,36,0.6666666666666666
+2003.0,Drawings,Unknown,1,36,0.027777777777777776
+2003.0,Film,Female,4,21,0.19047619047619047
+2003.0,Film,Male,16,21,0.7619047619047619
+2003.0,Film,Unknown,1,21,0.047619047619047616
+2003.0,Media and Performance Art,Female,8,24,0.3333333333333333
+2003.0,Media and Performance Art,Male,14,24,0.5833333333333334
+2003.0,Media and Performance Art,Unknown,2,24,0.08333333333333333
+2003.0,Painting & Sculpture,Female,3,11,0.2727272727272727
+2003.0,Painting & Sculpture,Male,8,11,0.7272727272727273
+2003.0,Photography,Female,5,19,0.2631578947368421
+2003.0,Photography,Male,11,19,0.5789473684210527
+2003.0,Photography,Unknown,3,19,0.15789473684210525
+2003.0,Prints & Illustrated Books,Female,15,67,0.22388059701492538
+2003.0,Prints & Illustrated Books,Male,50,67,0.746268656716418
+2003.0,Prints & Illustrated Books,Unknown,2,67,0.029850746268656716
+2004.0,Architecture & Design,Female,2,40,0.05
+2004.0,Architecture & Design,Male,30,40,0.75
+2004.0,Architecture & Design,Unknown,8,40,0.2
+2004.0,Drawings,Female,32,95,0.3368421052631579
+2004.0,Drawings,Male,62,95,0.6526315789473685
+2004.0,Drawings,Unknown,1,95,0.010526315789473684
+2004.0,Film,Female,1,3,0.3333333333333333
+2004.0,Film,Male,2,3,0.6666666666666666
+2004.0,Media and Performance Art,Female,7,20,0.35
+2004.0,Media and Performance Art,Male,13,20,0.65
+2004.0,Painting & Sculpture,Female,7,23,0.30434782608695654
+2004.0,Painting & Sculpture,Male,16,23,0.6956521739130435
+2004.0,Photography,Female,12,40,0.3
+2004.0,Photography,Male,27,40,0.675
+2004.0,Photography,Unknown,1,40,0.025
+2004.0,Prints & Illustrated Books,Female,8,34,0.23529411764705882
+2004.0,Prints & Illustrated Books,Male,26,34,0.7647058823529411
+2005.0,Architecture & Design,Female,6,73,0.0821917808219178
+2005.0,Architecture & Design,Male,50,73,0.684931506849315
+2005.0,Architecture & Design,Unknown,17,73,0.2328767123287671
+2005.0,Drawings,Female,187,666,0.2807807807807808
+2005.0,Drawings,Male,475,666,0.7132132132132132
+2005.0,Drawings,Unknown,4,666,0.006006006006006006
+2005.0,Film,Female,6,54,0.1111111111111111
+2005.0,Film,Male,47,54,0.8703703703703703
+2005.0,Film,Unknown,1,54,0.018518518518518517
+2005.0,Media and Performance Art,Female,4,20,0.2
+2005.0,Media and Performance Art,Male,14,20,0.7
+2005.0,Media and Performance Art,Unknown,2,20,0.1
+2005.0,Painting & Sculpture,Female,9,26,0.34615384615384615
+2005.0,Painting & Sculpture,Male,17,26,0.6538461538461539
+2005.0,Photography,Female,6,36,0.16666666666666666
+2005.0,Photography,Male,27,36,0.75
+2005.0,Photography,Unknown,3,36,0.08333333333333333
+2005.0,Prints & Illustrated Books,Female,17,61,0.2786885245901639
+2005.0,Prints & Illustrated Books,Male,42,61,0.6885245901639344
+2005.0,Prints & Illustrated Books,Unknown,2,61,0.03278688524590164
+2006.0,Architecture & Design,Female,11,125,0.088
+2006.0,Architecture & Design,Male,68,125,0.544
+2006.0,Architecture & Design,Unknown,46,125,0.368
+2006.0,Drawings,Female,12,39,0.3076923076923077
+2006.0,Drawings,Male,27,39,0.6923076923076923
+2006.0,Film,Female,3,17,0.17647058823529413
+2006.0,Film,Male,14,17,0.8235294117647058
+2006.0,Media and Performance Art,Female,3,13,0.23076923076923078
+2006.0,Media and Performance Art,Male,10,13,0.7692307692307693
+2006.0,Painting & Sculpture,Female,5,18,0.2777777777777778
+2006.0,Painting & Sculpture,Male,13,18,0.7222222222222222
+2006.0,Photography,Female,9,43,0.20930232558139536
+2006.0,Photography,Male,34,43,0.7906976744186046
+2006.0,Prints & Illustrated Books,Female,108,446,0.242152466367713
+2006.0,Prints & Illustrated Books,Male,292,446,0.6547085201793722
+2006.0,Prints & Illustrated Books,Unknown,46,446,0.1031390134529148
+2007.0,Architecture & Design,Female,5,40,0.125
+2007.0,Architecture & Design,Male,28,40,0.7
+2007.0,Architecture & Design,Unknown,7,40,0.175
+2007.0,Drawings,Female,9,46,0.1956521739130435
+2007.0,Drawings,Male,37,46,0.8043478260869565
+2007.0,Film,Female,2,32,0.0625
+2007.0,Film,Male,30,32,0.9375
+2007.0,Media and Performance Art,Female,15,41,0.36585365853658536
+2007.0,Media and Performance Art,Male,26,41,0.6341463414634146
+2007.0,Painting & Sculpture,Female,6,20,0.3
+2007.0,Painting & Sculpture,Male,14,20,0.7
+2007.0,Photography,Female,11,48,0.22916666666666666
+2007.0,Photography,Male,36,48,0.75
+2007.0,Photography,Unknown,1,48,0.020833333333333332
+2007.0,Prints & Illustrated Books,Female,34,184,0.18478260869565216
+2007.0,Prints & Illustrated Books,Male,123,184,0.6684782608695652
+2007.0,Prints & Illustrated Books,Unknown,27,184,0.14673913043478262
+2008.0,Architecture & Design,Female,7,60,0.11666666666666667
+2008.0,Architecture & Design,Male,42,60,0.7
+2008.0,Architecture & Design,Unknown,11,60,0.18333333333333332
+2008.0,Drawings,Female,15,54,0.2777777777777778
+2008.0,Drawings,Male,39,54,0.7222222222222222
+2008.0,Film,Female,13,92,0.14130434782608695
+2008.0,Film,Male,78,92,0.8478260869565217
+2008.0,Film,Unknown,1,92,0.010869565217391304
+2008.0,Fluxus Collection,Female,1,45,0.022222222222222223
+2008.0,Fluxus Collection,Male,21,45,0.4666666666666667
+2008.0,Fluxus Collection,Unknown,23,45,0.5111111111111111
+2008.0,Media and Performance Art,Female,17,41,0.4146341463414634
+2008.0,Media and Performance Art,Male,24,41,0.5853658536585366
+2008.0,Painting & Sculpture,Female,6,31,0.1935483870967742
+2008.0,Painting & Sculpture,Male,25,31,0.8064516129032258
+2008.0,Photography,Female,12,78,0.15384615384615385
+2008.0,Photography,Male,60,78,0.7692307692307693
+2008.0,Photography,Unknown,6,78,0.07692307692307693
+2008.0,Prints & Illustrated Books,Female,24,165,0.14545454545454545
+2008.0,Prints & Illustrated Books,Male,123,165,0.7454545454545455
+2008.0,Prints & Illustrated Books,Unknown,18,165,0.10909090909090909
+2009.0,Architecture & Design,Female,5,43,0.11627906976744186
+2009.0,Architecture & Design,Male,35,43,0.813953488372093
+2009.0,Architecture & Design,Unknown,3,43,0.06976744186046512
+2009.0,Drawings,Female,13,27,0.48148148148148145
+2009.0,Drawings,Male,12,27,0.4444444444444444
+2009.0,Drawings,Unknown,2,27,0.07407407407407407
+2009.0,Film,Female,10,57,0.17543859649122806
+2009.0,Film,Male,47,57,0.8245614035087719
+2009.0,Media and Performance Art,Female,18,42,0.42857142857142855
+2009.0,Media and Performance Art,Male,23,42,0.5476190476190477
+2009.0,Media and Performance Art,Unknown,1,42,0.023809523809523808
+2009.0,Painting & Sculpture,Female,5,15,0.3333333333333333
+2009.0,Painting & Sculpture,Male,10,15,0.6666666666666666
+2009.0,Photography,Female,8,69,0.11594202898550725
+2009.0,Photography,Male,59,69,0.855072463768116
+2009.0,Photography,Unknown,2,69,0.028985507246376812
+2009.0,Prints & Illustrated Books,Female,19,72,0.2638888888888889
+2009.0,Prints & Illustrated Books,Male,50,72,0.6944444444444444
+2009.0,Prints & Illustrated Books,Unknown,3,72,0.041666666666666664
+2010.0,Architecture & Design,Female,5,69,0.07246376811594203
+2010.0,Architecture & Design,Male,56,69,0.8115942028985508
+2010.0,Architecture & Design,Unknown,8,69,0.11594202898550725
+2010.0,Drawings,Female,10,39,0.2564102564102564
+2010.0,Drawings,Male,28,39,0.717948717948718
+2010.0,Drawings,Unknown,1,39,0.02564102564102564
+2010.0,Film,Female,9,38,0.23684210526315788
+2010.0,Film,Male,29,38,0.7631578947368421
+2010.0,Media and Performance Art,Male,2,2,1.0
+2010.0,Painting & Sculpture,Female,9,29,0.3103448275862069
+2010.0,Painting & Sculpture,Male,20,29,0.6896551724137931
+2010.0,Photography,Female,14,45,0.3111111111111111
+2010.0,Photography,Male,30,45,0.6666666666666666
+2010.0,Photography,Unknown,1,45,0.022222222222222223
+2010.0,Prints & Illustrated Books,Female,36,132,0.2727272727272727
+2010.0,Prints & Illustrated Books,Male,72,132,0.5454545454545454
+2010.0,Prints & Illustrated Books,Unknown,24,132,0.18181818181818182
+2011.0,Architecture & Design,Female,22,64,0.34375
+2011.0,Architecture & Design,Male,33,64,0.515625
+2011.0,Architecture & Design,Unknown,9,64,0.140625
+2011.0,Drawings,Female,16,50,0.32
+2011.0,Drawings,Male,34,50,0.68
+2011.0,Film,Female,16,64,0.25
+2011.0,Film,Male,47,64,0.734375
+2011.0,Film,Unknown,1,64,0.015625
+2011.0,Media and Performance Art,Female,12,33,0.36363636363636365
+2011.0,Media and Performance Art,Male,20,33,0.6060606060606061
+2011.0,Media and Performance Art,Unknown,1,33,0.030303030303030304
+2011.0,Painting & Sculpture,Female,13,45,0.28888888888888886
+2011.0,Painting & Sculpture,Male,31,45,0.6888888888888889
+2011.0,Painting & Sculpture,Unknown,1,45,0.022222222222222223
+2011.0,Photography,Female,19,52,0.36538461538461536
+2011.0,Photography,Male,32,52,0.6153846153846154
+2011.0,Photography,Unknown,1,52,0.019230769230769232
+2011.0,Prints & Illustrated Books,Female,12,86,0.13953488372093023
+2011.0,Prints & Illustrated Books,Male,65,86,0.7558139534883721
+2011.0,Prints & Illustrated Books,Unknown,9,86,0.10465116279069768
+2012.0,Architecture & Design,Female,7,94,0.07446808510638298
+2012.0,Architecture & Design,Male,75,94,0.7978723404255319
+2012.0,Architecture & Design,Unknown,12,94,0.1276595744680851
+2012.0,Drawings,Female,8,35,0.22857142857142856
+2012.0,Drawings,Male,27,35,0.7714285714285715
+2012.0,Film,Female,13,195,0.06666666666666667
+2012.0,Film,Male,180,195,0.9230769230769231
+2012.0,Film,Unknown,2,195,0.010256410256410256
+2012.0,Media and Performance Art,Female,12,23,0.5217391304347826
+2012.0,Media and Performance Art,Male,11,23,0.4782608695652174
+2012.0,Painting & Sculpture,Female,11,31,0.3548387096774194
+2012.0,Painting & Sculpture,Male,20,31,0.6451612903225806
+2012.0,Photography,Female,18,48,0.375
+2012.0,Photography,Male,30,48,0.625
+2012.0,Prints & Illustrated Books,Female,26,91,0.2857142857142857
+2012.0,Prints & Illustrated Books,Male,62,91,0.6813186813186813
+2012.0,Prints & Illustrated Books,Unknown,3,91,0.03296703296703297
+2013.0,Architecture & Design,Female,3,54,0.05555555555555555
+2013.0,Architecture & Design,Male,47,54,0.8703703703703703
+2013.0,Architecture & Design,Unknown,4,54,0.07407407407407407
+2013.0,Drawings,Female,7,30,0.23333333333333334
+2013.0,Drawings,Male,23,30,0.7666666666666667
+2013.0,Film,Female,26,169,0.15384615384615385
+2013.0,Film,Male,141,169,0.834319526627219
+2013.0,Film,Unknown,2,169,0.011834319526627219
+2013.0,Media and Performance Art,Female,5,23,0.21739130434782608
+2013.0,Media and Performance Art,Male,12,23,0.5217391304347826
+2013.0,Media and Performance Art,Unknown,6,23,0.2608695652173913
+2013.0,Painting & Sculpture,Female,12,43,0.27906976744186046
+2013.0,Painting & Sculpture,Male,31,43,0.7209302325581395
+2013.0,Photography,Female,30,94,0.3191489361702128
+2013.0,Photography,Male,60,94,0.6382978723404256
+2013.0,Photography,Unknown,4,94,0.0425531914893617
+2013.0,Prints & Illustrated Books,Female,42,267,0.15730337078651685
+2013.0,Prints & Illustrated Books,Male,135,267,0.5056179775280899
+2013.0,Prints & Illustrated Books,Unknown,90,267,0.33707865168539325
+2014.0,Architecture & Design,Female,12,123,0.0975609756097561
+2014.0,Architecture & Design,Male,96,123,0.7804878048780488
+2014.0,Architecture & Design,Unknown,15,123,0.12195121951219512
+2014.0,Drawings,Female,11,36,0.3055555555555556
+2014.0,Drawings,Male,25,36,0.6944444444444444
+2014.0,Film,Female,9,51,0.17647058823529413
+2014.0,Film,Male,42,51,0.8235294117647058
+2014.0,Media and Performance Art,Female,11,33,0.3333333333333333
+2014.0,Media and Performance Art,Male,15,33,0.45454545454545453
+2014.0,Media and Performance Art,Unknown,7,33,0.21212121212121213
+2014.0,Painting & Sculpture,Female,8,27,0.2962962962962963
+2014.0,Painting & Sculpture,Male,19,27,0.7037037037037037
+2014.0,Photography,Female,15,57,0.2631578947368421
+2014.0,Photography,Male,38,57,0.6666666666666666
+2014.0,Photography,Unknown,4,57,0.07017543859649122
+2014.0,Prints & Illustrated Books,Female,16,95,0.16842105263157894
+2014.0,Prints & Illustrated Books,Male,54,95,0.5684210526315789
+2014.0,Prints & Illustrated Books,Unknown,25,95,0.2631578947368421
+2015.0,Architecture & Design,Female,41,367,0.11171662125340599
+2015.0,Architecture & Design,Male,269,367,0.7329700272479565
+2015.0,Architecture & Design,Unknown,57,367,0.1553133514986376
+2015.0,Drawings,Female,8,29,0.27586206896551724
+2015.0,Drawings,Male,21,29,0.7241379310344828
+2015.0,Film,Female,6,36,0.16666666666666666
+2015.0,Film,Male,29,36,0.8055555555555556
+2015.0,Film,Unknown,1,36,0.027777777777777776
+2015.0,Media and Performance Art,Female,7,28,0.25
+2015.0,Media and Performance Art,Male,17,28,0.6071428571428571
+2015.0,Media and Performance Art,Unknown,4,28,0.14285714285714285
+2015.0,Painting & Sculpture,Female,9,31,0.2903225806451613
+2015.0,Painting & Sculpture,Male,22,31,0.7096774193548387
+2015.0,Photography,Female,14,58,0.2413793103448276
+2015.0,Photography,Male,41,58,0.7068965517241379
+2015.0,Photography,Unknown,3,58,0.05172413793103448
+2015.0,Prints & Illustrated Books,Female,31,122,0.2540983606557377
+2015.0,Prints & Illustrated Books,Male,90,122,0.7377049180327869
+2015.0,Prints & Illustrated Books,Unknown,1,122,0.00819672131147541
+2016.0,Architecture & Design,Female,13,102,0.12745098039215685
+2016.0,Architecture & Design,Male,62,102,0.6078431372549019
+2016.0,Architecture & Design,Unknown,27,102,0.2647058823529412
+2016.0,Drawings,Female,14,27,0.5185185185185185
+2016.0,Drawings,Male,12,27,0.4444444444444444
+2016.0,Drawings,Unknown,1,27,0.037037037037037035
+2016.0,Film,Female,14,94,0.14893617021276595
+2016.0,Film,Male,46,94,0.48936170212765956
+2016.0,Film,Unknown,34,94,0.3617021276595745
+2016.0,Media and Performance Art,Female,7,26,0.2692307692307692
+2016.0,Media and Performance Art,Male,12,26,0.46153846153846156
+2016.0,Media and Performance Art,Unknown,7,26,0.2692307692307692
+2016.0,Painting & Sculpture,Female,7,40,0.175
+2016.0,Painting & Sculpture,Male,24,40,0.6
+2016.0,Painting & Sculpture,Unknown,9,40,0.225
+2016.0,Photography,Female,16,85,0.18823529411764706
+2016.0,Photography,Male,62,85,0.7294117647058823
+2016.0,Photography,Unknown,7,85,0.08235294117647059
+2016.0,Prints & Illustrated Books,Female,13,60,0.21666666666666667
+2016.0,Prints & Illustrated Books,Male,41,60,0.6833333333333333
+2016.0,Prints & Illustrated Books,Unknown,6,60,0.1
