@@ -2,6 +2,7 @@
 # 🎨 MoMA Gender Representation Dashboard (Pro v5: Age Analysis)
 # ===========================================
 
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -12,12 +13,14 @@ from sklearn.linear_model import LinearRegression
 # ⚙️ Page setup
 # -------------------------------------------
 st.set_page_config(page_title="MoMA Gender Representation (Pro v5)", layout="wide")
-st.title("🎨 The Visibility of Women Artists in MoMA’s Collection (Pro v5)")
+st.title("The Visibility of Women Artists in MoMA’s Collection (Pro v5)")
 
 # -------------------------------------------
 # 📂 Load datasets
 # -------------------------------------------
-base = "/Users/joyceyoyo/Desktop/Code/public_policy_finalproject/data/processed"
+# 使用相对路径（基于当前脚本位置），便于在不同机器/目录运行
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+base = os.path.join(BASE_DIR, "data", "processed")
 
 
 @st.cache_data
@@ -32,12 +35,8 @@ def load_data():
         df["Gender"] = df["Gender"].astype(str).str.strip().str.title()
 
     # 加载原始 artists & artworks（用于年龄计算）
-    artists = pd.read_csv(
-        f"/Users/joyceyoyo/Desktop/Code/public_policy_finalproject/artists.csv"
-    )
-    artworks = pd.read_csv(
-        f"/Users/joyceyoyo/Desktop/Code/public_policy_finalproject/artworks.csv"
-    )
+    artists = pd.read_csv(os.path.join(BASE_DIR, "artists.csv"))
+    artworks = pd.read_csv(os.path.join(BASE_DIR, "artworks.csv"))
     artists["Artist ID"] = artists["Artist ID"].astype(str).str.strip()
     artworks["Artist ID"] = artworks["Artist ID"].astype(str).str.strip()
     artworks["Artist ID"] = artworks["Artist ID"].str.split(",").str[0].str.strip()
@@ -77,12 +76,12 @@ dept_sel = st.sidebar.multiselect(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("🧠 Developed by **Yue Yao** · Columbia SIPA")
+st.sidebar.markdown("Developed by **Yue Yao** · Columbia SIPA")
 
 # ===========================================
 # 1️⃣ Acquisition Trends
 # ===========================================
-st.subheader("1️⃣ Acquisition Trends: Gender Representation Over Time")
+st.subheader("Acquisition Trends: Gender Representation Over Time")
 
 filtered = by_year.query("year >= @year_range[0] and year <= @year_range[1]")
 fig1 = px.line(
@@ -101,12 +100,12 @@ st.plotly_chart(fig1, use_container_width=True)
 female = filtered[filtered["Gender"] == "Female"]
 model = LinearRegression().fit(female[["year"]], female["share"])
 pred_2030 = model.predict(np.array([[2030]]))[0]
-st.markdown(f"**📈 Predicted female share in 2030:** {pred_2030 * 100:.1f}%")
+st.markdown(f"**Predicted female share in 2030:** {pred_2030 * 100:.1f}%")
 
 # ===========================================
 # 2️⃣ Department Comparison
 # ===========================================
-st.subheader("2️⃣ Department-Level Trends")
+st.subheader("Department-Level Trends")
 
 fig2 = px.line(
     by_dept[
@@ -126,7 +125,7 @@ st.plotly_chart(fig2, use_container_width=True)
 # ===========================================
 # 3️⃣ Age at Time of Acquisition (Interactive Mosaic View)
 # ===========================================
-st.subheader("3️⃣ Age at Time of Acquisition — Interactive Mosaic View")
+st.subheader("Age at Time of Acquisition — Interactive Mosaic View")
 
 # --- 年龄段分箱 ---
 bins = [0, 29, 39, 49, 59, 69, 79, 100]
@@ -153,7 +152,7 @@ col1, col2 = st.columns(2)
 col1.metric("Average Age (Male)", f"{avg_age_m:.1f} years")
 col2.metric("Average Age (Female)", f"{avg_age_f:.1f} years")
 st.markdown(
-    f"🧮 **Gender Age Gap at Acquisition:** {age_gap:.1f} years (positive = men older)"
+    f"**Gender Age Gap at Acquisition:** {age_gap:.1f} years (positive = men older)"
 )
 
 
@@ -170,9 +169,7 @@ st.plotly_chart(fig_ani, use_container_width=True)
 # ===========================================
 # 3️⃣.5 Age at Time of Creation — Comparison
 # ===========================================
-st.subheader(
-    "🧩 Age at Time of Creation — Comparing Artistic vs Institutional Timelines"
-)
+st.subheader("Age at Time of Creation — Comparing Artistic vs Institutional Timelines")
 
 
 # 提取作品创作年份
@@ -210,7 +207,7 @@ col1.metric("Avg Age at Creation (Male)", f"{avg_create_m:.1f} years")
 col2.metric("Avg Age at Creation (Female)", f"{avg_create_f:.1f} years")
 
 st.markdown(
-    f"🧮 **Gender Gap in Creation Age:** {create_gap:.1f} years (positive = men older)"
+    f"**Gender Gap in Creation Age:** {create_gap:.1f} years (positive = men older)"
 )
 
 # 可视化：动画比较年龄结构变化
@@ -269,7 +266,7 @@ lag_gap = lag_m - lag_f
 
 st.markdown(
     f"""
-    **🧠 Insight:**  
+    **Insight:**  
     • Female artists created their works at an average age of **{avg_create_f:.1f}**, and MoMA acquired them at **{avg_age_f:.1f}**,  
       implying an institutional delay of **{lag_f:.1f} years**.  
     • Male artists created their works at **{avg_create_m:.1f}**, with acquisition around **{avg_age_m:.1f}**,  
@@ -283,14 +280,14 @@ st.markdown(
 # ===========================================
 # 4️⃣ Global Geography
 # ===========================================
-st.subheader("4️⃣ Global Distribution of Women Artists")
+st.subheader("Global Distribution of Women Artists")
 
 if not geo.empty:
     color_col = "female_share" if "female_share" in geo.columns else "female_artists"
 
     fig_geo = px.choropleth(
         geo,
-        locations="Nationality",               # 列名必须和 CSV 一致
+        locations="Nationality",  # 列名必须和 CSV 一致
         locationmode="country names",
         color=color_col,
         color_continuous_scale="Reds",
@@ -304,10 +301,10 @@ else:
 # ===========================================
 # 5️⃣ Institutional Equity Explorer (Interactive)
 # ===========================================
-st.markdown("## 🧭 Institutional Equity Explorer")
+st.markdown("## Institutional Equity Explorer")
 
 # --- Forecast simulator
-st.markdown("### 🔮 Forecast Simulator — Explore 2030 and Beyond")
+st.markdown("### Forecast Simulator — Explore 2030 and Beyond")
 female = by_year[by_year["Gender"] == "Female"]
 model = LinearRegression().fit(female[["year"]], female["share"])
 
@@ -315,7 +312,7 @@ future_year = st.slider("Select forecast year", 2020, 2050, 2030, step=1)
 pred_future = model.predict(np.array([[future_year]]))[0]
 
 st.markdown(
-    f"#### 📈 Predicted female share in **{future_year}**: **{pred_future * 100:.1f}%**"
+    f"#### Predicted female share in **{future_year}**: **{pred_future * 100:.1f}%**"
 )
 
 # --- Forecast line chart
@@ -348,5 +345,5 @@ def color_for_value(val, low, high):
 
 st.markdown("---")
 st.caption(
-    "📘 Data Source: The Museum of Modern Art (MoMA) Public Dataset — Analysis and Visualization by Yue Yao"
+    "Data Source: The Museum of Modern Art (MoMA) Public Dataset — Analysis and Visualization by Yue Yao"
 )

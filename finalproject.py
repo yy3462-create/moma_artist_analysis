@@ -4,10 +4,11 @@ import numpy as np
 import pandas as pd
 
 # ============ 路径 ============
-BASE = "/Users/joyceyoyo/Desktop/Code/public_policy_finalproject"
-ARTISTS_CSV = f"{BASE}/artists.csv"
-ARTWORKS_CSV = f"{BASE}/artworks.csv"
-OUTDIR = f"{BASE}/data/processed"
+# 使用相对路径（基于当前脚本位置），便于在不同机器/目录运行
+BASE = os.path.dirname(os.path.abspath(__file__))
+ARTISTS_CSV = os.path.join(BASE, "artists.csv")
+ARTWORKS_CSV = os.path.join(BASE, "artworks.csv")
+OUTDIR = os.path.join(BASE, "data", "processed")
 os.makedirs(OUTDIR, exist_ok=True)
 
 # ============ 读取 ============
@@ -126,7 +127,7 @@ def parse_creation_year(txt) -> float | None:
     if m_decade:
         try:
             return int(m_decade.group(1) + "0")
-        except:
+        except Exception:
             pass
     # 抓取所有四位数年份（1000–2099范围内）
     years = [int(y) for y in re.findall(r"\b(1[0-9]{3}|20[0-9]{2})\b", s)]
