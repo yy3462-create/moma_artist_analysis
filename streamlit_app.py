@@ -13,7 +13,7 @@ from sklearn.linear_model import LinearRegression
 # ⚙️ Page setup
 # -------------------------------------------
 st.set_page_config(page_title="MoMA Gender Representation (Pro v5)", layout="wide")
-st.title("The Visibility of Women Artists in MoMA’s Collection (Pro v5)")
+st.title("🎨 The Visibility of Women Artists in MoMA’s Collection (Pro v5)")
 
 # -------------------------------------------
 # 📂 Load datasets
@@ -76,12 +76,12 @@ dept_sel = st.sidebar.multiselect(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("Developed by **Yue Yao** · Columbia SIPA")
+st.sidebar.markdown("🧠 Developed by **Yue Yao** · Columbia SIPA")
 
 # ===========================================
 # 1️⃣ Acquisition Trends
 # ===========================================
-st.subheader("Acquisition Trends: Gender Representation Over Time")
+st.subheader("1️⃣ Acquisition Trends: Gender Representation Over Time")
 
 filtered = by_year.query("year >= @year_range[0] and year <= @year_range[1]")
 fig1 = px.line(
@@ -100,12 +100,12 @@ st.plotly_chart(fig1, use_container_width=True)
 female = filtered[filtered["Gender"] == "Female"]
 model = LinearRegression().fit(female[["year"]], female["share"])
 pred_2030 = model.predict(np.array([[2030]]))[0]
-st.markdown(f"**Predicted female share in 2030:** {pred_2030 * 100:.1f}%")
+st.markdown(f"**📈 Predicted female share in 2030:** {pred_2030 * 100:.1f}%")
 
 # ===========================================
 # 2️⃣ Department Comparison
 # ===========================================
-st.subheader("Department-Level Trends")
+st.subheader("2️⃣ Department-Level Trends")
 
 fig2 = px.line(
     by_dept[
@@ -125,7 +125,7 @@ st.plotly_chart(fig2, use_container_width=True)
 # ===========================================
 # 3️⃣ Age at Time of Acquisition (Interactive Mosaic View)
 # ===========================================
-st.subheader("Age at Time of Acquisition — Interactive Mosaic View")
+st.subheader("3️⃣ Age at Time of Acquisition — Interactive Mosaic View")
 
 # --- 年龄段分箱 ---
 bins = [0, 29, 39, 49, 59, 69, 79, 100]
@@ -152,7 +152,7 @@ col1, col2 = st.columns(2)
 col1.metric("Average Age (Male)", f"{avg_age_m:.1f} years")
 col2.metric("Average Age (Female)", f"{avg_age_f:.1f} years")
 st.markdown(
-    f"**Gender Age Gap at Acquisition:** {age_gap:.1f} years (positive = men older)"
+    f"🧮 **Gender Age Gap at Acquisition:** {age_gap:.1f} years (positive = men older)"
 )
 
 
@@ -169,7 +169,9 @@ st.plotly_chart(fig_ani, use_container_width=True)
 # ===========================================
 # 3️⃣.5 Age at Time of Creation — Comparison
 # ===========================================
-st.subheader("Age at Time of Creation — Comparing Artistic vs Institutional Timelines")
+st.subheader(
+    "🧩 Age at Time of Creation — Comparing Artistic vs Institutional Timelines"
+)
 
 
 # 提取作品创作年份
@@ -207,7 +209,7 @@ col1.metric("Avg Age at Creation (Male)", f"{avg_create_m:.1f} years")
 col2.metric("Avg Age at Creation (Female)", f"{avg_create_f:.1f} years")
 
 st.markdown(
-    f"**Gender Gap in Creation Age:** {create_gap:.1f} years (positive = men older)"
+    f"🧮 **Gender Gap in Creation Age:** {create_gap:.1f} years (positive = men older)"
 )
 
 # 可视化：动画比较年龄结构变化
@@ -266,7 +268,7 @@ lag_gap = lag_m - lag_f
 
 st.markdown(
     f"""
-    **Insight:**  
+    **🧠 Insight:**  
     • Female artists created their works at an average age of **{avg_create_f:.1f}**, and MoMA acquired them at **{avg_age_f:.1f}**,  
       implying an institutional delay of **{lag_f:.1f} years**.  
     • Male artists created their works at **{avg_create_m:.1f}**, with acquisition around **{avg_age_m:.1f}**,  
@@ -280,7 +282,112 @@ st.markdown(
 # ===========================================
 # 4️⃣ Global Geography
 # ===========================================
-st.subheader("Global Distribution of Women Artists")
+# 读取地理文件
+geo = pd.read_csv(f"{base}/female_geo.csv")
+geo["Nationality"] = geo["Nationality"].astype(str).str.strip()
+
+# 手动标准化常见的非标准国家名
+country_map = {
+    # --- North America ---
+    "American": "United States",
+    "U.S.": "United States",
+    "U.S.A.": "United States",
+    "USA": "United States",
+    "United States of America": "United States",
+    "Canadian": "Canada",
+    "Mexican": "Mexico",
+    # --- Europe ---
+    "British": "United Kingdom",
+    "English": "United Kingdom",
+    "Scottish": "United Kingdom",
+    "Irish": "Ireland",
+    "French": "France",
+    "German": "Germany",
+    "Swiss": "Switzerland",
+    "Austrian": "Austria",
+    "Dutch": "Netherlands",
+    "Belgian": "Belgium",
+    "Danish": "Denmark",
+    "Swedish": "Sweden",
+    "Norwegian": "Norway",
+    "Finnish": "Finland",
+    "Polish": "Poland",
+    "Czech": "Czech Republic",
+    "Czechia": "Czech Republic",
+    "Hungarian": "Hungary",
+    "Portuguese": "Portugal",
+    "Spanish": "Spain",
+    "Italian": "Italy",
+    "Greek": "Greece",
+    "Russian": "Russia",
+    "Ukrainian": "Ukraine",
+    # --- Asia ---
+    "Chinese": "China",
+    "Taiwanese": "Taiwan",
+    "Hong Kong": "Hong Kong SAR",
+    "Japanese": "Japan",
+    "Korean": "South Korea",
+    "South Korean": "South Korea",
+    "North Korean": "North Korea",
+    "Indian": "India",
+    "Pakistani": "Pakistan",
+    "Singaporean": "Singapore",
+    "Filipino": "Philippines",
+    "Indonesian": "Indonesia",
+    "Thai": "Thailand",
+    "Vietnamese": "Vietnam",
+    "Malaysian": "Malaysia",
+    # --- Middle East / Africa ---
+    "Iranian": "Iran",
+    "Iraqi": "Iraq",
+    "Israeli": "Israel",
+    "Palestinian": "Palestine",
+    "Turkish": "Turkey",
+    "Lebanese": "Lebanon",
+    "Syrian": "Syria",
+    "Egyptian": "Egypt",
+    "Moroccan": "Morocco",
+    "Tunisian": "Tunisia",
+    "Algerian": "Algeria",
+    "South African": "South Africa",
+    "Nigerian": "Nigeria",
+    "Ghanaian": "Ghana",
+    "Kenyan": "Kenya",
+    # --- Latin America ---
+    "Brazilian": "Brazil",
+    "Argentinian": "Argentina",
+    "Chilean": "Chile",
+    "Peruvian": "Peru",
+    "Colombian": "Colombia",
+    "Cuban": "Cuba",
+    "Venezuelan": "Venezuela",
+    "Uruguayan": "Uruguay",
+    # --- Oceania ---
+    "Australian": "Australia",
+    "New Zealander": "New Zealand",
+}
+
+# 应用映射
+geo["Nationality"] = geo["Nationality"].replace(country_map)
+
+# 修正空白或无效值
+geo = geo.dropna(subset=["Nationality"])
+geo = geo[geo["Nationality"].str.len() > 1]
+geo["Nationality"] = geo["Nationality"].str.strip()
+
+# 可选：检查 Plotly 未识别的国家（测试用途）
+# import plotly.express as px
+# fig_test = px.choropleth(locations=geo["Nationality"], locationmode="country names")
+# unrecognized = set(geo["Nationality"]) - set(fig_test.data[0]["locations"])
+# print("⚠️ 未识别国家：", unrecognized)
+
+st.success("🌍 Country names successfully standardized for geographic visualization.")
+
+
+# ===========================================
+# 4️⃣ Global Geography
+# ===========================================
+st.subheader("4️⃣ Global Distribution of Women Artists")
 
 if not geo.empty:
     color_col = "female_share" if "female_share" in geo.columns else "female_artists"
@@ -301,10 +408,10 @@ else:
 # ===========================================
 # 5️⃣ Institutional Equity Explorer (Interactive)
 # ===========================================
-st.markdown("## Institutional Equity Explorer")
+st.markdown("## 🧭 Institutional Equity Explorer")
 
 # --- Forecast simulator
-st.markdown("### Forecast Simulator — Explore 2030 and Beyond")
+st.markdown("### 🔮 Forecast Simulator — Explore 2030 and Beyond")
 female = by_year[by_year["Gender"] == "Female"]
 model = LinearRegression().fit(female[["year"]], female["share"])
 
@@ -312,7 +419,7 @@ future_year = st.slider("Select forecast year", 2020, 2050, 2030, step=1)
 pred_future = model.predict(np.array([[future_year]]))[0]
 
 st.markdown(
-    f"#### Predicted female share in **{future_year}**: **{pred_future * 100:.1f}%**"
+    f"#### 📈 Predicted female share in **{future_year}**: **{pred_future * 100:.1f}%**"
 )
 
 # --- Forecast line chart
@@ -345,5 +452,5 @@ def color_for_value(val, low, high):
 
 st.markdown("---")
 st.caption(
-    "Data Source: The Museum of Modern Art (MoMA) Public Dataset — Analysis and Visualization by Yue Yao"
+    "📘 Data Source: The Museum of Modern Art (MoMA) Public Dataset — Analysis and Visualization by Yue Yao"
 )
